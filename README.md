@@ -48,10 +48,10 @@ Document Upload    Request Processing      Entity Extraction
 ## Tech Stack
 
 **Languages**
-- Python (Intermediário) — Backend, NLP, Scripting
-- JavaScript (Básico) — Frontend
-- Java (Básico) — Estruturas, lógica
-- HTML5 / CSS3 (Intermediário) — UI
+- Python — Backend, NLP, Scripting
+- JavaScript — Frontend
+- Java — Estruturas, lógica
+- HTML5 / CSS3 — UI
 
 **Tools & Frameworks**
 - REST API, HTTP Protocol
@@ -91,7 +91,9 @@ Document Upload    Request Processing      Entity Extraction
 **Automação Predial & Redes**  
 *Set 2025 → Presente* | São Paulo, SP
 
-Implementação de PLCs, CFTV e alarme. Administração de servidores e infraestrutura de rede. Gestão de ativos corporativos.
+Instalações e configurações de servidores;
+Configurações e gerenciamento de ativos de rede;
+Programações de controladores lógicos programáveis, painéis de detecção e alarme de incêndio, sistemas de controle de acesso e gravadores de CFTV.
 
 ### Bolsista — Incubadora Tecnológica UTFPR
 **Gestão Administrativa**  
