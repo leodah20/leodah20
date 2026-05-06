@@ -93,12 +93,6 @@ Document Upload    Request Processing      Entity Extraction
 
 Implementação de PLCs, CFTV e alarme. Administração de servidores e infraestrutura de rede. Gestão de ativos corporativos.
 
-### Operacional — Subway
-**Atendimento e Operações**  
-*Jun 2024 – Mar 2025* | Guarulhos, SP
-
-Operação de caixa, gestão de estoque (FIFO), atendimento ao cliente, procedimentos de qualidade.
-
 ### Bolsista — Incubadora Tecnológica UTFPR
 **Gestão Administrativa**  
 *Nov 2020 – Nov 2021* | Cornélio Procópio, PR
