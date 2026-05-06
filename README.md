@@ -5,7 +5,7 @@
 **Leonardo Cordeiro Sutil** | @leodah20  
 Guarulhos, SP • Brazil
 
-[LinkedIn](www.linkedin.com/in/leonardo-cordeiro-sutil-67a54b1a9) • [Email](mailto:leoh.cordeiros@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/leonardo-cordeiro-sutil-67a54b1a9) • [Email](mailto:leoh.cordeiros@gmail.com)
 
 </div>
 
