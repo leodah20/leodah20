@@ -15,7 +15,7 @@ Guarulhos, SP • Brazil
 
 Estudante de Ciência da Computação (UNIP, 2022-2026) com **5 anos de experiência** em desenvolvimento full-stack e infraestrutura de TI. Especialização em **aplicações inteligentes, NLP e segurança da informação**.
 
-**C2 English Proficient** | **Homem Transgênero** | **Linux & Open Source**
+**C2 English Proficient** | **Cybersec** | **Linux & Open Source**
 
 ---
 
