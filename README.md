@@ -125,20 +125,8 @@ UTFPR — Cornélio Procópio, PR
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=leodah20&show_icons=true&theme=dark&hide_border=true&bg_color=0a0e27&title_color=00d9ff&text_color=e0e0e0)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=leodah20&layout=compact&theme=dark&hide_border=true&bg_color=0a0e27&title_color=00d9ff&text_color=e0e0e0)
-
-</div>
-
----
-
-<div align="center">
-
-**Contato:** [Email](mailto:leoh.cordeiros@gmail.com) • [WhatsApp](https://wa.me/5511974971912) • [LinkedIn](https://linkedin.com/in/leonardo-cordeiro-sutil)
-
-</div>
+## Contact
+**Email:** leoh.cordeiros@gmail.com  
+**WhatsApp:** +55 11 97497-1912  
+**LinkedIn:** [leonardo-cordeiro-sutil](https://linkedin.com/in/leonardo-cordeiro-sutil)  
+**GitHub:** [@leodah20](https://github.com/leodah20)
