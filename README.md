@@ -1,252 +1,225 @@
-```
-████████████████████████████████████████████████████████████
-█  ███  █ ▄▄▄▄▄ █ ▀▀▄▀█▀▀█▀▀▄▀ █ ▄▄▄▄▄ █ ███ █ ▄▄▄▄▄ █
-█ █████ █ █   █ █ ██ █  ███ ███ █ █   █ █ ███ █ █   █ █
-█ █████ █ █▄▄▄█ █ ██   █████ ███ █ █▄▄▄█ █  ▄▄█ █▄▄▄█ █
-█  ███  █ █     █  ▀▀▀▀▀ █   ███ █ █     █ ██ ███       █
-█████████████████████████████████████████████████████████████
-```
-
-# 🎮 LEO — Systems Trainer | Full Stack Developer
-
-> **"Do painel elétrico ao terminal root. Cyberpunk dreams, Pokémon vibes."**
-
----
-
-## 🌐 Profile Header
+<img src="https://media.giphy.com/media/L1R1ByoObWXc4/giphy.gif" width="100%" height="200" alt="cyberpunk-neon"/>
 
 <div align="center">
 
-![Status](https://img.shields.io/badge/Status-Building%20Future-7dd3fc?style=flat-square&logo=github)
-![Level](https://img.shields.io/badge/Level-22-f472b6?style=flat-square)
-![Location](https://img.shields.io/badge/Location-Guarulhos%2C%20SP-4ade80?style=flat-square)
-![Language](https://img.shields.io/badge/C2%20English-Proficient-fbbf24?style=flat-square)
-![Trans](https://img.shields.io/badge/Trans%20Rights-Human%20Rights-ff1493?style=flat-square)
+```
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║  ▓▓▓▓▓▓  ███████  ██████   ██████   █████   ██   ██  █████    ║
+║  ██      ██       ██    ██ ██      ██   ██  ███  ██  ██       ║
+║  ▓▓▓▓▓▓  ███████  ██    ██ ██      ███████  ██ █ ██  ███████  ║
+║      ██  ██       ██    ██ ██      ██   ██  ██  ███  ██       ║
+║  ▓▓▓▓▓▓  ███████  ██████   ██████  ██   ██  ██   ██  █████    ║
+║                                                                ║
+║              Leonardo Cordeiro Sutil | @leodah20              ║
+║          Full Stack Developer | Cybersecurity Aspirant        ║
+║                    Guarulhos, SP • Brazil                      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+```
 
-**Computer Science Student | Full Stack Developer | Cybersecurity Aspirant**
+**Computer Science Student** | **AI/ML Practitioner** | **Systems Administrator**
 
-[GitHub](https://github.com/leodah20) • [LinkedIn](https://linkedin.com/in/leonardo-cordeiro-sutil) • [Email](mailto:leoh.cordeiros@gmail.com)
+[GitHub](https://github.com/leodah20) • [LinkedIn](https://linkedin.com/in/leonardo-cordeiro-sutil) • [Email](mailto:leoh.cordeiros@gmail.com) • [+55 11 97497-1912](https://wa.me/5511974971912)
 
 </div>
 
 ---
 
-## 🎯 About Me
+<img src="https://media.giphy.com/media/xTiTnq8gMQsPZPM8f2/giphy.gif" width="100%" height="150" alt="matrix-code"/>
 
-Estudante de Ciência da Computação apaixonado por **criar soluções que fazem diferença**. Tenho 5 anos de experiência em projetos pessoais e acadêmicos, combinando **desenvolvimento full-stack com paixão por cibersegurança e inovação**.
+## ━━━ PROFILE OVERVIEW ━━━
 
-Sou **homem transgênero**, acredito que diversidade = melhores ideias. Não tenho medo de falhar, porque cada erro é um exploit não documentado esperando para ser descoberto.
+Estudante de Ciência da Computação | UNIP (2022-2026)
 
-**Stack Mental:** Cyberpunk aesthetics + Pokémon creativity + Linux warrior mindset
+Desenvolvedor Full Stack com **5 anos de experiência** em projetos acadêmicos e pessoais. Especialização em desenvolvimento de aplicações inteligentes, infraestrutura de redes e segurança da informação.
+
+**C2 English Proficient** (EFSET 75/100) | **Homem Transgênero** | **Linux & Open Source Advocate**
 
 ---
 
-## 🚀 Flagship Project: AcademicBot
+<img src="https://media.giphy.com/media/l0HlRnAWXxn0MhKLK/giphy.gif" width="100%" height="150" alt="neon-grid"/>
 
-### **TCC - Chatbot Inteligente Acadêmico**
+## ━━━ FLAGSHIP PROJECT: ACADEMICBOT ━━━
+
+**Chatbot Inteligente Acadêmico** — TCC de Graduação
+
+### Arquitetura
 
 ```
-[Professor] 📚 → [Admin Panel] 🎛️ → [HTTP API] 🌐 → [Rasa Engine] 🤖 → [Student] 💬
-                    ↑                          ↑
-                    └──────Frontend────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│                    PROFESSOR DASHBOARD                       │
+│                  (HTML/CSS/JavaScript)                       │
+└────────────────────────┬────────────────────────────────────┘
+                         │
+                    HTTP/REST API
+                         │
+        ┌────────────────┴────────────────┐
+        │                                 │
+   ┌────▼──────┐                  ┌──────▼──────┐
+   │  Rasa NLP │◄───Database───►│  Python API │
+   │  Engine   │                  │   Backend    │
+   └────┬──────┘                  └──────┬───────┘
+        │                                 │
+        └────────────────┬────────────────┘
+                         │
+                    HTTP/REST API
+                         │
+        ┌────────────────▼────────────────┐
+        │     STUDENT CHATBOT INTERFACE    │
+        │         (Web Application)        │
+        └─────────────────────────────────┘
 ```
 
-**O Problema:**
-Professores sobrecarregados respondendo a mesmas dúvidas. Alunos esperando por feedback.
+### Descrição Técnica
 
-**A Solução:**
-Um chatbot inteligente que:
-- ✅ **Aprende** com material didático uploadado pelos professores
-- ✅ **Responde** dúvidas acadêmicas 24/7
-- ✅ **Reduz carga** dos professores
-- ✅ **Escalável** para qualquer instituição
+Plataforma educacional que integra **Processamento de Linguagem Natural** com **API REST** para automatizar suporte acadêmico. Professores fazem upload de materiais didáticos através de painel administrativo; o sistema processa documentos, treina modelos LLM, e disponibiliza chatbot para alunos.
 
-**Tech Stack:**
-```
-Frontend:     HTML5 | CSS3 | JavaScript (Vanilla)
-Backend:      Python | HTTP REST API
-NLP Engine:   Rasa (Trained LLM)
-Pipeline:     Professor Upload → API Process → Bot Response
-```
+**Responsabilidades:**
+- 🎨 **Frontend:** Painel administrativo responsivo, integração HTTP com backend
+- 🔧 **Full-Stack:** Configuração de pipelines Rasa, otimização de requisições API
+- 📊 **Backend:** Processamento de documentos, gestão de dados de usuário
 
-**Minha Contribuição:**
-- 🎨 **Frontend principal:** Painel administrativo responsivo com requisições HTTP
-- 🔧 **Full-stack participation:** API integration, database queries, Rasa pipeline configuration
-- 🧠 **Problem Solving:** Arquitetura cliente-servidor, fluxo de dados end-to-end
-
-**Repositories:**
-- [`chatbot-front`](https://github.com/leodah20/chatbot-front) - Frontend Panel
-- [`chatbot_rasa`](https://github.com/leodah20/chatbot_rasa) - NLP Engine
-- [`ChatBot_API`](https://github.com/leodah20/ChatBot_API) - REST API
+**Repositórios:**
+- [`chatbot-front`](https://github.com/leodah20/chatbot-front) — Interface web
+- [`chatbot_rasa`](https://github.com/leodah20/chatbot_rasa) — Motor NLP
+- [`ChatBot_API`](https://github.com/leodah20/ChatBot_API) — REST API Backend
 
 ---
 
-## 💻 Tech Stack & Skills
+<img src="https://media.giphy.com/media/26uf1EUQtjJ9yYrxu/giphy.gif" width="100%" height="150" alt="cyber-scan"/>
 
-### **Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+## ━━━ TECHNICAL STACK ━━━
 
-### **Tools & Frameworks**
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![HTTP](https://img.shields.io/badge/HTTP-API-7dd3fc?style=for-the-badge)
-![Rasa](https://img.shields.io/badge/Rasa-NLP-f472b6?style=for-the-badge)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+### Programming Languages
 
-### **Security & Networks**
-![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+| Linguagem | Nível | Aplicação |
+|-----------|-------|-----------|
+| **Python** | Intermediário | Backend, NLP (Rasa), Scripting |
+| **JavaScript** | Básico/Intermediário | Frontend, HTTP Client |
+| **Java** | Básico/Intermediário | Aplicações desktop, Estruturas de dados |
+| **HTML5 / CSS3** | Intermediário | UI/UX, Painel administrativo |
 
-**Core Competencies:**
-- 🔐 Cybersecurity Fundamentals (Linux privesc, network reconnaissance, vulnerability analysis)
-- 🤖 AI/ML & NLP (LLM fine-tuning, prompt engineering, Rasa pipelines)
-- 🌐 Full-Stack Development (Frontend UX, Backend APIs, Database design)
-- 📡 Network Administration & Infrastructure
-- 🧠 Problem Solving & Creative Thinking
-
----
-
-## 📚 Certifications & Education
-
-| Certificação | Emissor | Data |
-|---|---|---|
-| 🤖 AWS Educate: Intro to Generative AI | Amazon Web Services | Mar 2025 |
-| 🔐 Intro to Cybersecurity | Santander Brasil | Abr 2025 |
-| 🌐 Fundamentos de HTTP para Desenvolvedores | LinkedIn Learning | Abr 2025 |
-| 📡 Começando com Cisco Packet Tracer | Cisco Networking Academy | Abr 2026 |
-| 🛡️ Segurança da Informação e Proteção de Dados | Universidade Paulista | Out 2024 |
-| 🎓 IA nas Empresas | Universidade Paulista | Out 2024 |
-| 📟 Arduino Básico | UTFPR | Abr 2019 |
-| 🌍 **C2 Proficient English** | EF SET (75/100) | Set 2021 |
-
-**Formação Acadêmica:**
-- **Bacharelado em Ciência da Computação** — UNIP (ago/2022 → jun/2026)
-- **Engenharia Elétrica** — UTFPR (2018-2019, incompleto)
-
----
-
-## 💼 Experience
-
-### **Estágio | Build Engenharia** (set/2025 → presente)
-📍 São Paulo, SP | Automação Predial & Administração de Redes
-
-- PLCs, Sistemas de Alarme, CFTV
-- Infraestrutura de Servidores
-- Gerenciamento de Ativos de Rede
-- Suporte administrativo
-
-### **Atendente | Subway** (jun/2024 - mar/2025)
-Operações, logística, atendimento ao cliente. Aprendizado: **workflow efficiency, inventory management, communication under pressure**.
-
-### **Bolsista de Gestão | Incubadora Tecnológica UTFPR** (nov/2020 - nov/2021)
-Apoio a startups, relatórios técnicos, análise de propostas, planejamento estratégico.
-
----
-
-## 🎨 What Makes Me Different
-
-| Aspecto | Diferencial |
-|---|---|
-| **Criatividade** | Cyberpunk + Pokémon aesthetic: código com estilo, não é só funcional |
-| **Versatilidade** | Full-stack (frontend, backend, infra, security) sem ser "especialista em nada" (ainda) |
-| **Transparência** | Homem trans em tech. Diversidade não é quota, é força |
-| **Aprendizado Rápido** | 5 anos de experiência autodidata + curiosidade obsessiva |
-| **Comunicação** | C2 English, português fluente, consigo explicar código complexo de forma simples |
-
----
-
-## 🗺️ Roadmap 2025: Building the Portfolio
-
-Não tenho portfolio ainda. **Mas vamos construir isso JUNTOS:**
-
-### **FASE 1: Consolidação (Q2 2025)**
-- [x] README épico ← VOCÊ ESTÁ AQUI
-- [ ] Documentar AcademicBot nos repositórios
-- [ ] Deploy em produção (AWS)
-- [ ] Case study / Blog post
-
-### **FASE 2: Projetos Complementares (Q3 2025)**
-- [ ] **CyberLab Dashboard** - Visualization tool para CTF scores (React + D3.js)
-- [ ] **Network Sniffer CLI** - Packet analysis tool em Python
-- [ ] **PokéAPI Security Wrapper** - REST API com autenticação JWT & rate limiting
-- [ ] **Linux Privilege Escalation Cheatsheet** - Interactive web tool
-
-### **FASE 3: Portfolio Website (Q4 2025)**
-- [ ] Site pessoal estilo cyberpunk/retro
-- [ ] Blog técnico (writeups de CTF, tutoriais)
-- [ ] Showcase interativo dos projetos
-
-### **FASE 4: Community & Open Source (2026)**
-- [ ] Contribuições em repositórios open source
-- [ ] Mentoria para outras pessoas trans em tech
-- [ ] Possível talk/artigo em comunidade
-
----
-
-## 🎮 Fun Facts
+### Frameworks & Tools
 
 ```
-Estética Favorita:    Cyberpunk neon meets Pokémon pixel art
-Linguagem Favorita:   Python (mas JavaScript tá crescendo)
-Sabor de Café:        ☕ Demais para contar
-Pokémon Starter:      Charmander (fogo > água > grama, sempre)
-Estresse Level:       DEBUG.exe → Production.exe
+Backend:          Python, REST API, HTTP Protocol
+NLP/AI:           Rasa, LLM Fine-tuning, Intent Recognition
+Frontend:         Vanilla JavaScript, HTML5, CSS3
+DevOps:           Git/GitHub, Linux CLI, Bash Scripting
+Security:         Linux, Kali Linux, Cisco Packet Tracer
+Cloud:            AWS (Generative AI concepts)
 ```
+
+### Core Competencies
+
+- ✓ **Full-Stack Web Development** — Frontend, Backend, API Integration
+- ✓ **NLP & Machine Learning** — Rasa pipelines, Intent classification, Entity recognition
+- ✓ **Network Administration** — TCP/IP, Routing, VLAN, Packet Analysis
+- ✓ **Linux System Administration** — User management, Services, Shell scripting
+- ✓ **Cybersecurity Fundamentals** — Network reconnaissance, Vulnerability assessment
+- ✓ **Database Design** — Data modeling, Query optimization, CRUD operations
 
 ---
 
-## 🤝 Let's Connect
+<img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="100%" height="150" alt="digital-rain"/>
+
+## ━━━ CERTIFICATIONS ━━━
+
+| Certificação | Emissor | Data | Credencial |
+|---|---|---|---|
+| AWS Educate: Introduction to Generative AI | Amazon Web Services | Mar 2025 | [Verificar](#) |
+| Introdução à Cibersegurança com Santander | Santander Brasil | Abr 2025 | [Verificar](#) |
+| Fundamentos de HTTP para Desenvolvedores | LinkedIn Learning | Abr 2025 | [Verificar](#) |
+| Começando com Cisco Packet Tracer | Cisco Networking Academy | Abr 2026 | [Certificado](#) |
+| Segurança da Informação e Proteção de Dados | Universidade Paulista | Out 2024 | [Certificado](#) |
+| Integrando Inteligência Artificial nas Empresas | Universidade Paulista | Out 2024 | [Certificado](#) |
+| Arduino Básico - Oficina de Extensão | UTFPR Cornélio Procópio | Abr 2019 | [Certificado](#) |
+| **EFSET English Certificate 75/100 (C2)** | **EF SET** | **Set 2021** | **[Verificar](https://www.efset.org/)** |
+
+---
+
+## ━━━ PROFESSIONAL EXPERIENCE ━━━
+
+### Estágio — Build Engenharia
+**Automação Predial & Administração de Redes**  
+*Setembro 2025 → Presente* | São Paulo, SP
+
+- Implementação e manutenção de sistemas de automação predial (PLCs, CFTV, alarme)
+- Administração de servidores e infraestrutura de rede
+- Gestão de ativos de rede corporativos
+- Suporte técnico administrativo
+
+### Operacional — Subway
+**Atendimento e Operações**  
+*Junho 2024 – Março 2025* | Guarulhos, SP
+
+- Operação de caixa e gestão de estoque (FIFO)
+- Atendimento ao cliente e procedimentos de qualidade
+- Recebimento e armazenamento de mercadorias
+
+### Bolsista — Incubadora Tecnológica UTFPR
+**Gestão Administrativa e Operacional**  
+*Novembro 2020 – Novembro 2021* | Cornélio Procópio, PR
+
+- Apoio à gestão de empresas incubadas
+- Elaboração de relatórios técnicos e planejamento estratégico
+- Análise de propostas e comunicação com startups
+- Organização de eventos e workshops para empreendedores
+
+### Estagiário — Lemos & Lemos Assessoria
+**Engenharia e Gestão Financeira**  
+*Dezembro 2021 – Abril 2022* | Guarulhos, SP
+
+- Elaboração de relatórios e apresentações administrativas
+- Gestão de contas a pagar/receber e conciliação financeira
+- Controle de renovações contratuais
+
+---
+
+<img src="https://media.giphy.com/media/3o85xIO33l7RlmLR4I/giphy.gif" width="100%" height="150" alt="tech-interface"/>
+
+## ━━━ EDUCATION ━━━
+
+**Bacharelado em Ciência da Computação**  
+Universidade Paulista (UNIP) — São Paulo, SP  
+*Agosto 2022 → Junho 2026* (Cursando)
+
+**Bacharelado em Engenharia Elétrica**  
+Universidade Tecnológica Federal do Paraná (UTFPR) — Cornélio Procópio, PR  
+*Fevereiro 2018 – Fevereiro 2019* (Curso incompleto)
+
+---
+
+## ━━━ GITHUB STATISTICS ━━━
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-leodah20-181717?style=for-the-badge&logo=github)](https://github.com/leodah20)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Leonardo%20Cordeiro-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/leonardo-cordeiro-sutil)
-[![Email](https://img.shields.io/badge/Email-leoh.cordeiros%40gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:leoh.cordeiros@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B55%2011%2097497--1912-25D366?style=for-the-badge&logo=whatsapp)](https://wa.me/5511974971912)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=leodah20&show_icons=true&theme=dark&hide_border=true&bg_color=0a0e27&title_color=00d9ff&text_color=00ff88&icon_color=00d9ff)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=leodah20&layout=compact&theme=dark&hide_border=true&bg_color=0a0e27&title_color=00d9ff&text_color=00ff88)
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+<img src="https://media.giphy.com/media/3o6Zt6KHxJTbXCnSvu/giphy.gif" width="100%" height="150" alt="network-connections"/>
+
+## ━━━ CONTACT & SOCIAL ━━━
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=leodah20&show_icons=true&theme=dark&hide_border=true&bg_color=0a0e27&title_color=7dd3fc&text_color=e0c8ff)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=leodah20&layout=compact&theme=dark&hide_border=true&bg_color=0a0e27&title_color=7dd3fc&text_color=e0c8ff)
+[![GitHub](https://img.shields.io/badge/GitHub-leodah20-00d9ff?style=flat-square&logo=github&logoColor=white)](https://github.com/leodah20)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Leonardo%20Cordeiro-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/leonardo-cordeiro-sutil)
+[![Email](https://img.shields.io/badge/Email-leoh.cordeiros%40gmail.com-00ff88?style=flat-square&logo=gmail&logoColor=black)](mailto:leoh.cordeiros@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B55%2011%2097497--1912-25D366?style=flat-square&logo=whatsapp)](https://wa.me/5511974971912)
 
 </div>
 
 ---
 
-## 💭 Final Thoughts
-
-```
-"Não sou especialista em nada ainda. 
-Sou aprendiz em TUDO.
-E isso é exatamente minha vantagem."
-```
-
-Estou em uma jornada de **construção de portfolio, exploração de novas tecnologias, e contribuição para comunidades** (especialmente tech LGBTQ+).
-
-Se você quer colaborar em algum projeto, tem ideias malucas, ou quer conversar sobre cybersec, IA ou Pokémon, **me chamaaaa**.
-
----
-
 <div align="center">
 
-**🎮 "LEO usou COMMIT! É super eficaz!" ⚡**
-
-<img src="https://media.giphy.com/media/L1R1ByoObWXc4/giphy.gif" width="200" alt="Pokemon trainer"/>
-
----
-
-_Last updated: May 2025_ | _Profile views:_ ![Views](https://komarev.com/ghpvc/?username=leodah20&color=7dd3fc&style=flat)
+<img src="https://media.giphy.com/media/TFg0yIWwx5AzjcjHNr/giphy.gif" width="100%" height="120" alt="cyberpunk-city"/>
 
 </div>
