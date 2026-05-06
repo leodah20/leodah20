@@ -118,11 +118,3 @@ Universidade Paulista (UNIP) — São Paulo, SP
 **Engenharia Elétrica** (incompleto)  
 UTFPR — Cornélio Procópio, PR  
 *Fev 2018 – Fev 2019*
-
----
-
-## Contact
-**Email:** leoh.cordeiros@gmail.com  
-**WhatsApp:** +55 11 97497-1912  
-**LinkedIn:** [leonardo-cordeiro-sutil](https://linkedin.com/in/leonardo-cordeiro-sutil)  
-**GitHub:** [@leodah20](https://github.com/leodah20)
