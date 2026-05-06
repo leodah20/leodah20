@@ -1,408 +1,252 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6d28d9&height=110&section=header" width="100%">
+```
+████████████████████████████████████████████████████████████
+█  ███  █ ▄▄▄▄▄ █ ▀▀▄▀█▀▀█▀▀▄▀ █ ▄▄▄▄▄ █ ███ █ ▄▄▄▄▄ █
+█ █████ █ █   █ █ ██ █  ███ ███ █ █   █ █ ███ █ █   █ █
+█ █████ █ █▄▄▄█ █ ██   █████ ███ █ █▄▄▄█ █  ▄▄█ █▄▄▄█ █
+█  ███  █ █     █  ▀▀▀▀▀ █   ███ █ █     █ ██ ███       █
+█████████████████████████████████████████████████████████████
+```
+
+# 🎮 LEO — Systems Trainer | Full Stack Developer
+
+> **"Do painel elétrico ao terminal root. Cyberpunk dreams, Pokémon vibes."**
+
+---
+
+## 🌐 Profile Header
 
 <div align="center">
-  <h1>
-    <a href="https://github.com/leodah20">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=7dd3fc&center=true&vCenter=true&width=500&lines=LEO+-+Systems+Trainer;Lv.22+Guarulhos%2C+SP;Do+painel+elétrico+ao+terminal+root." alt="Typing SVG" />
-    </a>
-  </h1>
-</div>
 
-<div align="center">
-  <p>
-    <img src="https://img.shields.io/badge/Country-Brasil-yellow?style=flat-square" alt="Country">
-    <img src="https://img.shields.io/badge/City-Guarulhos%2C+SP-blue?style=flat-square" alt="City">
-    <img src="https://img.shields.io/badge/Language-Portuguese-green?style=flat-square" alt="Language">
-    <img src="https://img.shields.io/badge/English-C2+Proficient-brightgreen?style=flat-square" alt="English Level">
-  </p>
+![Status](https://img.shields.io/badge/Status-Building%20Future-7dd3fc?style=flat-square&logo=github)
+![Level](https://img.shields.io/badge/Level-22-f472b6?style=flat-square)
+![Location](https://img.shields.io/badge/Location-Guarulhos%2C%20SP-4ade80?style=flat-square)
+![Language](https://img.shields.io/badge/C2%20English-Proficient-fbbf24?style=flat-square)
+![Trans](https://img.shields.io/badge/Trans%20Rights-Human%20Rights-ff1493?style=flat-square)
+
+**Computer Science Student | Full Stack Developer | Cybersecurity Aspirant**
+
+[GitHub](https://github.com/leodah20) • [LinkedIn](https://linkedin.com/in/leonardo-cordeiro-sutil) • [Email](mailto:leoh.cordeiros@gmail.com)
+
 </div>
 
 ---
 
-<h2 align="center">🎮 About Me</h2>
+## 🎯 About Me
 
-<p align="center">
-  <b>Systems Trainer especializado em Automação Predial, Infraestrutura Linux e Cybersecurity</b><br>
-  Transformando painéis elétricos em soluções digitais. Apaixonado por resolver problemas técnicos complexos e explorar os limites da tecnologia.
-</p>
+Estudante de Ciência da Computação apaixonado por **criar soluções que fazem diferença**. Tenho 5 anos de experiência em projetos pessoais e acadêmicos, combinando **desenvolvimento full-stack com paixão por cibersegurança e inovação**.
 
----
+Sou **homem transgênero**, acredito que diversidade = melhores ideias. Não tenho medo de falhar, porque cada erro é um exploit não documentado esperando para ser descoberto.
 
-<h2 align="center">⚡ Mapa de Habilidades</h2>
-
-<div align="center">
-  <table style="width:100%; table-layout:fixed;">
-    <thead>
-      <tr>
-        <th colspan="2" align="center">Skills | Proficiência</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td align="left"><b>🏭 Automação Predial</b></td>
-        <td align="center"><code>████████████████████░░░░░░░░ 85%</code></td>
-      </tr>
-      <tr>
-        <td align="left"><b>🐧 Linux & Infraestrutura</b></td>
-        <td align="center"><code>███████████████░░░░░░░░░░░░░░ 78%</code></td>
-      </tr>
-      <tr>
-        <td align="left"><b>🔗 Redes TCP/IP</b></td>
-        <td align="center"><code>██████████████░░░░░░░░░░░░░░░░ 74%</code></td>
-      </tr>
-      <tr>
-        <td align="left"><b>🐍 Python & SQL</b></td>
-        <td align="center"><code>██████████░░░░░░░░░░░░░░░░░░░░ 70%</code></td>
-      </tr>
-      <tr>
-        <td align="left"><b>🔐 Cybersecurity</b></td>
-        <td align="center"><code>█████████░░░░░░░░░░░░░░░░░░░░░░ 62%</code></td>
-      </tr>
-      <tr>
-        <td align="left"><b>☁️ Cloud & DevOps</b></td>
-        <td align="center"><code>████████░░░░░░░░░░░░░░░░░░░░░░░ 55%</code></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+**Stack Mental:** Cyberpunk aesthetics + Pokémon creativity + Linux warrior mindset
 
 ---
 
-<h2 align="center">⚙️ Ferramentas de Batalha</h2>
+## 🚀 Flagship Project: AcademicBot
 
-<h3 align="center">🏭 Automação Predial</h3>
-<div align="center">
-  <table style="background-color: transparent; border: none;">
-    <tr>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/iDBox-88%25-f472b6?style=for-the-badge" alt="iDBox"/>
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/Invenzi-85%25-f472b6?style=for-the-badge" alt="Invenzi"/>
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/ConmBox-80%25-f472b6?style=for-the-badge" alt="ConmBox"/>
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/Intelbras-82%25-f472b6?style=for-the-badge" alt="Intelbras"/>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/Mercato-75%25-f472b6?style=for-the-badge" alt="Mercato"/>
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/OmniRate-70%25-f472b6?style=for-the-badge" alt="OmniRate"/>
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/Rede%20MB-72%25-f472b6?style=for-the-badge" alt="Rede MB"/>
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/PLCs-78%25-f472b6?style=for-the-badge" alt="PLCs"/>
-      </td>
-    </tr>
-  </table>
-</div>
+### **TCC - Chatbot Inteligente Acadêmico**
 
-<h3 align="center">🔧 Infraestrutura & Redes</h3>
-<div align="center">
-  <table style="background-color: transparent; border: none;">
-    <tr>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/Linux%2FBash-78%25-4ade80?style=for-the-badge" alt="Linux/Bash"/>
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/Docker-60%25-4ade80?style=for-the-badge" alt="Docker"/>
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/Git-65%25-4ade80?style=for-the-badge" alt="Git"/>
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/Servidores-72%25-4ade80?style=for-the-badge" alt="Servidores"/>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="4" align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/TCP%2FIP-70%25-4ade80?style=for-the-badge" alt="TCP/IP"/>
-      </td>
-    </tr>
-  </table>
-</div>
+```
+[Professor] 📚 → [Admin Panel] 🎛️ → [HTTP API] 🌐 → [Rasa Engine] 🤖 → [Student] 💬
+                    ↑                          ↑
+                    └──────Frontend────────────┘
+```
 
-<h3 align="center">💻 Desenvolvimento</h3>
-<div align="center">
-  <table style="background-color: transparent; border: none;">
-    <tr>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/Python-70%25-fbbf24?style=for-the-badge" alt="Python"/>
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/SQL-72%25-fbbf24?style=for-the-badge" alt="SQL"/>
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/SQLAlchemy-60%25-fbbf24?style=for-the-badge" alt="SQLAlchemy"/>
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/Java-55%25-fbbf24?style=for-the-badge" alt="Java"/>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/JavaScript-50%25-fbbf24?style=for-the-badge" alt="JavaScript"/>
-      </td>
-      <td colspan="3" align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/HTML%2FCSS-58%25-fbbf24?style=for-the-badge" alt="HTML/CSS"/>
-      </td>
-    </tr>
-  </table>
-</div>
+**O Problema:**
+Professores sobrecarregados respondendo a mesmas dúvidas. Alunos esperando por feedback.
 
-<h3 align="center">🔐 Cybersecurity</h3>
-<div align="center">
-  <table style="background-color: transparent; border: none;">
-    <tr>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/Kali%20Linux-65%25-f472b6?style=for-the-badge" alt="Kali Linux"/>
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/Nmap-72%25-f472b6?style=for-the-badge" alt="Nmap"/>
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/Searchsploit-60%25-f472b6?style=for-the-badge" alt="Searchsploit"/>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/PrivEsc-58%25-f472b6?style=for-the-badge" alt="PrivEsc"/>
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/GTFOBins-60%25-f472b6?style=for-the-badge" alt="GTFOBins"/>
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://img.shields.io/badge/CVE%20Research-62%25-f472b6?style=for-the-badge" alt="CVE Research"/>
-      </td>
-    </tr>
-  </table>
-</div>
+**A Solução:**
+Um chatbot inteligente que:
+- ✅ **Aprende** com material didático uploadado pelos professores
+- ✅ **Responde** dúvidas acadêmicas 24/7
+- ✅ **Reduz carga** dos professores
+- ✅ **Escalável** para qualquer instituição
+
+**Tech Stack:**
+```
+Frontend:     HTML5 | CSS3 | JavaScript (Vanilla)
+Backend:      Python | HTTP REST API
+NLP Engine:   Rasa (Trained LLM)
+Pipeline:     Professor Upload → API Process → Bot Response
+```
+
+**Minha Contribuição:**
+- 🎨 **Frontend principal:** Painel administrativo responsivo com requisições HTTP
+- 🔧 **Full-stack participation:** API integration, database queries, Rasa pipeline configuration
+- 🧠 **Problem Solving:** Arquitetura cliente-servidor, fluxo de dados end-to-end
+
+**Repositories:**
+- [`chatbot-front`](https://github.com/leodah20/chatbot-front) - Frontend Panel
+- [`chatbot_rasa`](https://github.com/leodah20/chatbot_rasa) - NLP Engine
+- [`ChatBot_API`](https://github.com/leodah20/ChatBot_API) - REST API
 
 ---
 
-<h2 align="center">📍 Missão Ativa</h2>
+## 💻 Tech Stack & Skills
+
+### **Languages**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### **Tools & Frameworks**
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![HTTP](https://img.shields.io/badge/HTTP-API-7dd3fc?style=for-the-badge)
+![Rasa](https://img.shields.io/badge/Rasa-NLP-f472b6?style=for-the-badge)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### **Security & Networks**
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+
+**Core Competencies:**
+- 🔐 Cybersecurity Fundamentals (Linux privesc, network reconnaissance, vulnerability analysis)
+- 🤖 AI/ML & NLP (LLM fine-tuning, prompt engineering, Rasa pipelines)
+- 🌐 Full-Stack Development (Frontend UX, Backend APIs, Database design)
+- 📡 Network Administration & Infrastructure
+- 🧠 Problem Solving & Creative Thinking
+
+---
+
+## 📚 Certifications & Education
+
+| Certificação | Emissor | Data |
+|---|---|---|
+| 🤖 AWS Educate: Intro to Generative AI | Amazon Web Services | Mar 2025 |
+| 🔐 Intro to Cybersecurity | Santander Brasil | Abr 2025 |
+| 🌐 Fundamentos de HTTP para Desenvolvedores | LinkedIn Learning | Abr 2025 |
+| 📡 Começando com Cisco Packet Tracer | Cisco Networking Academy | Abr 2026 |
+| 🛡️ Segurança da Informação e Proteção de Dados | Universidade Paulista | Out 2024 |
+| 🎓 IA nas Empresas | Universidade Paulista | Out 2024 |
+| 📟 Arduino Básico | UTFPR | Abr 2019 |
+| 🌍 **C2 Proficient English** | EF SET (75/100) | Set 2021 |
+
+**Formação Acadêmica:**
+- **Bacharelado em Ciência da Computação** — UNIP (ago/2022 → jun/2026)
+- **Engenharia Elétrica** — UTFPR (2018-2019, incompleto)
+
+---
+
+## 💼 Experience
+
+### **Estágio | Build Engenharia** (set/2025 → presente)
+📍 São Paulo, SP | Automação Predial & Administração de Redes
+
+- PLCs, Sistemas de Alarme, CFTV
+- Infraestrutura de Servidores
+- Gerenciamento de Ativos de Rede
+- Suporte administrativo
+
+### **Atendente | Subway** (jun/2024 - mar/2025)
+Operações, logística, atendimento ao cliente. Aprendizado: **workflow efficiency, inventory management, communication under pressure**.
+
+### **Bolsista de Gestão | Incubadora Tecnológica UTFPR** (nov/2020 - nov/2021)
+Apoio a startups, relatórios técnicos, análise de propostas, planejamento estratégico.
+
+---
+
+## 🎨 What Makes Me Different
+
+| Aspecto | Diferencial |
+|---|---|
+| **Criatividade** | Cyberpunk + Pokémon aesthetic: código com estilo, não é só funcional |
+| **Versatilidade** | Full-stack (frontend, backend, infra, security) sem ser "especialista em nada" (ainda) |
+| **Transparência** | Homem trans em tech. Diversidade não é quota, é força |
+| **Aprendizado Rápido** | 5 anos de experiência autodidata + curiosidade obsessiva |
+| **Comunicação** | C2 English, português fluente, consigo explicar código complexo de forma simples |
+
+---
+
+## 🗺️ Roadmap 2025: Building the Portfolio
+
+Não tenho portfolio ainda. **Mas vamos construir isso JUNTOS:**
+
+### **FASE 1: Consolidação (Q2 2025)**
+- [x] README épico ← VOCÊ ESTÁ AQUI
+- [ ] Documentar AcademicBot nos repositórios
+- [ ] Deploy em produção (AWS)
+- [ ] Case study / Blog post
+
+### **FASE 2: Projetos Complementares (Q3 2025)**
+- [ ] **CyberLab Dashboard** - Visualization tool para CTF scores (React + D3.js)
+- [ ] **Network Sniffer CLI** - Packet analysis tool em Python
+- [ ] **PokéAPI Security Wrapper** - REST API com autenticação JWT & rate limiting
+- [ ] **Linux Privilege Escalation Cheatsheet** - Interactive web tool
+
+### **FASE 3: Portfolio Website (Q4 2025)**
+- [ ] Site pessoal estilo cyberpunk/retro
+- [ ] Blog técnico (writeups de CTF, tutoriais)
+- [ ] Showcase interativo dos projetos
+
+### **FASE 4: Community & Open Source (2026)**
+- [ ] Contribuições em repositórios open source
+- [ ] Mentoria para outras pessoas trans em tech
+- [ ] Possível talk/artigo em comunidade
+
+---
+
+## 🎮 Fun Facts
+
+```
+Estética Favorita:    Cyberpunk neon meets Pokémon pixel art
+Linguagem Favorita:   Python (mas JavaScript tá crescendo)
+Sabor de Café:        ☕ Demais para contar
+Pokémon Starter:      Charmander (fogo > água > grama, sempre)
+Estresse Level:       DEBUG.exe → Production.exe
+```
+
+---
+
+## 🤝 Let's Connect
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <b>Build Engenharia</b><br>
-        São Paulo, SP<br>
-        set/2025 → presente
-      </td>
-      <td align="left">
-        ► PLCs · Automação Predial<br>
-        ► Alarme de Incêndio<br>
-        ► CFTV · Videomonitoramento<br>
-        ► Servidores · Infraestrutura<br>
-        ► Ativos de Rede<br>
-        ► Controle de Acesso
-      </td>
-    </tr>
-  </table>
 
-  **Progresso:** `████████████████████░░░░░░░░ 82%`
+[![GitHub](https://img.shields.io/badge/GitHub-leodah20-181717?style=for-the-badge&logo=github)](https://github.com/leodah20)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Leonardo%20Cordeiro-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/leonardo-cordeiro-sutil)
+[![Email](https://img.shields.io/badge/Email-leoh.cordeiros%40gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:leoh.cordeiros@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B55%2011%2097497--1912-25D366?style=for-the-badge&logo=whatsapp)](https://wa.me/5511974971912)
+
 </div>
 
 ---
 
-<h2 align="center">🏅 Conquistas</h2>
+## 📊 GitHub Stats
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center" width="200">
-        <b>🤖</b><br>
-        AWS Generative AI
-      </td>
-      <td align="center" width="200">
-        <b>🔐</b><br>
-        Cibersegurança Santander
-      </td>
-      <td align="center" width="200">
-        <b>🌍</b><br>
-        C2 English EF SET 75/100
-      </td>
-      <td align="center" width="200">
-        <b>📚</b><br>
-        Infosec UNIP
-      </td>
-    </tr>
-  </table>
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=leodah20&show_icons=true&theme=dark&hide_border=true&bg_color=0a0e27&title_color=7dd3fc&text_color=e0c8ff)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=leodah20&layout=compact&theme=dark&hide_border=true&bg_color=0a0e27&title_color=7dd3fc&text_color=e0c8ff)
+
 </div>
 
 ---
 
-<h2 align="center">📊 GitHub Stats</h2>
+## 💭 Final Thoughts
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=leodah20&show_icons=true&theme=dark&hide_border=true&bg_color=0d0d1a&text_color=e0c8ff&title_color=7dd3fc&icon_color=f472b6" alt="GitHub Stats" width="100%" />
+```
+"Não sou especialista em nada ainda. 
+Sou aprendiz em TUDO.
+E isso é exatamente minha vantagem."
+```
 
-  <br>
+Estou em uma jornada de **construção de portfolio, exploração de novas tecnologias, e contribuição para comunidades** (especialmente tech LGBTQ+).
 
-  <img src="https://streak-stats.demolab.com/?user=leodah20&theme=dark&hide_border=true&background=0d0d1a&ring=7dd3fc&fire=f472b6&currStreakLabel=e0c8ff" alt="GitHub Streak" width="100%" />
-</div>
-
----
-
-<h1 align="center">🛠️ Tech Stack</h1>
-
-<h3 align="center">Linux & Infraestrutura</h3>
-<div align="center">
-  <table style="background-color: transparent; border: none;">
-    <tr>
-      <td align="center" style="border: none; padding: 15px;">
-        <img src="https://skillicons.dev/icons?i=linux" alt="Linux" width="60" height="60"/><br><b>Linux</b>
-      </td>
-      <td align="center" style="border: none; padding: 15px;">
-        <img src="https://skillicons.dev/icons?i=bash" alt="Bash" width="60" height="60"/><br><b>Bash</b>
-      </td>
-      <td align="center" style="border: none; padding: 15px;">
-        <img src="https://skillicons.dev/icons?i=docker" alt="Docker" width="60" height="60"/><br><b>Docker</b>
-      </td>
-      <td align="center" style="border: none; padding: 15px;">
-        <img src="https://skillicons.dev/icons?i=git" alt="Git" width="60" height="60"/><br><b>Git</b>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<h3 align="center">Desenvolvimento</h3>
-<div align="center">
-  <table style="background-color: transparent; border: none;">
-    <tr>
-      <td align="center" style="border: none; padding: 15px;">
-        <img src="https://skillicons.dev/icons?i=python" alt="Python" width="60" height="60"/><br><b>Python</b>
-      </td>
-      <td align="center" style="border: none; padding: 15px;">
-        <img src="https://skillicons.dev/icons?i=java" alt="Java" width="60" height="60"/><br><b>Java</b>
-      </td>
-      <td align="center" style="border: none; padding: 15px;">
-        <img src="https://skillicons.dev/icons?i=javascript" alt="JavaScript" width="60" height="60"/><br><b>JavaScript</b>
-      </td>
-      <td align="center" style="border: none; padding: 15px;">
-        <img src="https://skillicons.dev/icons?i=html" alt="HTML" width="60" height="60"/><br><b>HTML</b>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" style="border: none; padding: 15px;">
-        <img src="https://skillicons.dev/icons?i=css" alt="CSS" width="60" height="60"/><br><b>CSS</b>
-      </td>
-      <td align="center" style="border: none; padding: 15px;">
-        <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" width="60" height="60"/><br><b>MySQL</b>
-      </td>
-      <td align="center" style="border: none; padding: 15px;">
-        <img src="https://skillicons.dev/icons?i=postgresql" alt="PostgreSQL" width="60" height="60"/><br><b>PostgreSQL</b>
-      </td>
-      <td align="center" style="border: none; padding: 15px;">
-        <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" width="60" height="60"/><br><b>MongoDB</b>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<h3 align="center">Cybersecurity</h3>
-<div align="center">
-  <table style="background-color: transparent; border: none;">
-    <tr>
-      <td align="center" style="border: none; padding: 15px;">
-        <img src="https://skillicons.dev/icons?i=kali" alt="Kali Linux" width="60" height="60"/><br><b>Kali Linux</b>
-      </td>
-      <td align="center" style="border: none; padding: 15px;">
-        <img src="https://img.shields.io/badge/Nmap-FF6B6B?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgdmlld0JveD0iMCAwIDMyIDMyIj48cmVjdCB4PSIyIiB5PSI0IiB3aWR0aD0iMjgiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==" alt="Nmap"/><br><b>Nmap</b>
-      </td>
-      <td align="center" style="border: none; padding: 15px;">
-        <img src="https://img.shields.io/badge/Burp%20Suite-FF6B6B?style=for-the-badge" alt="Burp Suite"/><br><b>Burp Suite</b>
-      </td>
-      <td align="center" style="border: none; padding: 15px;">
-        <img src="https://img.shields.io/badge/WireShark-1679A7?style=for-the-badge&logo=wireshark" alt="Wireshark"/><br><b>Wireshark</b>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-<h2 align="center">🌐 Conecte-se Comigo</h2>
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/leodah20" target="_blank">
-          <img src="https://img.icons8.com/color/96/000000/github--v1.png" alt="GitHub" style="width: 80px; margin: 10px;"/><br>
-          <b>GitHub</b>
-        </a>
-      </td>
-      <td align="center">
-        <a href="mailto:leoh.cordeiros@gmail.com" target="_blank">
-          <img src="https://img.icons8.com/color/96/000000/gmail--v1.png" alt="Email" style="width: 80px; margin: 10px;"/><br>
-          <b>Email</b>
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://linkedin.com/in/leodah20" target="_blank">
-          <img src="https://img.icons8.com/color/96/000000/linkedin.png" alt="LinkedIn" style="width: 80px; margin: 10px;"/><br>
-          <b>LinkedIn</b>
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://twitter.com/leodah20" target="_blank">
-          <img src="https://img.icons8.com/color/96/000000/twitter--v1.png" alt="Twitter" style="width: 80px; margin: 10px;"/><br>
-          <b>Twitter/X</b>
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-<h2 align="center">📫 Contato</h2>
-
-<div align="center">
-  <table>
-    <thead>
-      <tr>
-        <th>Email</th>
-        <th>Localização</th>
-        <th>Status</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td align="center">
-          <a href="mailto:leoh.cordeiros@gmail.com">
-            leoh.cordeiros@gmail.com
-          </a>
-        </td>
-        <td align="center">
-          📍 Guarulhos, SP — Brasil
-        </td>
-        <td align="center">
-          <img src="https://img.shields.io/badge/Status-Aberto%20para%20desafios-4ade80?style=flat-square" alt="Status"/>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Se você quer colaborar em algum projeto, tem ideias malucas, ou quer conversar sobre cybersec, IA ou Pokémon, **me chamaaaa**.
 
 ---
 
 <div align="center">
-  <p>
-    <b>⭐ Do painel elétrico ao terminal root ⭐</b><br>
-    <i>Systems Trainer · Lv.22 · Guarulhos, SP</i>
-  </p>
-  
-  <img src="https://komarev.com/ghpvc/?username=leodah20&color=6d28d9&style=flat-square&label=Profile+Views" alt="Profile views"/>
-</div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6d28d9&height=110&section=footer" width="100%">
+**🎮 "LEO usou COMMIT! É super eficaz!" ⚡**
+
+<img src="https://media.giphy.com/media/L1R1ByoObWXc4/giphy.gif" width="200" alt="Pokemon trainer"/>
+
+---
+
+_Last updated: May 2025_ | _Profile views:_ ![Views](https://komarev.com/ghpvc/?username=leodah20&color=7dd3fc&style=flat)
+
+</div>
