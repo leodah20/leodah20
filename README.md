@@ -1,6 +1,6 @@
 <div align="center">
 
-# LEO — Full Stack Developer
+# LEO - Full Stack Developer
 
 **Leonardo Cordeiro Sutil** | @leodah20  
 Guarulhos, SP • Brazil
