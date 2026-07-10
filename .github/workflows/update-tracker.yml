@@ -1,0 +1,39 @@
+name: Update Game Boy tracker
+
+on:
+  schedule:
+    # Every 6 hours. GitHub's stats/contribution data doesn't change fast
+    # enough to justify a shorter interval, and this keeps Action minutes low.
+    - cron: "0 */6 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-tracker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Generate tracker card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_assets.py --username leodah20 --skip-banner
+
+      - name: Commit updated tracker
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/tracker.png
+          git diff --cached --quiet && echo "No changes" || git commit -m "chore: update tracker [skip ci]"
+          git push
