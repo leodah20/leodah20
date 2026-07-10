@@ -10,11 +10,7 @@
 
 </div>
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-> LOAD "ABOUT.PRG",8,1
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+`> LOAD "ABOUT.PRG",8,1`
 
 Estudante de Ciência da Computação (UNIP, 2022-2026) atuando hoje como
 **Analista de Redes Jr. na Build Engenharia** — infraestrutura, servidores
@@ -24,11 +20,7 @@ informação vinda de projetos anteriores.
 
 `C2 ENGLISH` · `CYBERSEC FUNDAMENTALS` · `LINUX & OPEN SOURCE`
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-> LOAD "STATS.PRG",8,1  (auto-atualiza a cada 6h via GitHub Actions)
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+`> LOAD "STATS.PRG",8,1` — auto-atualiza a cada 6h via GitHub Actions
 
 <div align="center">
 <img src="assets/tracker.png" alt="Live GitHub stats — repos, stars, followers, contribuições e linguagens" width="100%" />
@@ -36,11 +28,7 @@ informação vinda de projetos anteriores.
 <sub>Cartucho gerado por script proprio (<a href="scripts/generate_assets.py">scripts/generate_assets.py</a>) rodando em <a href=".github/workflows/update-tracker.yml">GitHub Actions</a> a cada 6h — nao e um badge de terceiro, e nao e "tempo real" no sentido literal (um README estatico nao roda JS), mas o mais perto disso que da pra fazer sem backend.</sub>
 </div>
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-> LOAD "FLAGSHIP.PRG",8,1
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+`> LOAD "FLAGSHIP.PRG",8,1`
 
 ### AcademicBot — Chatbot Inteligente Acadêmico (TCC de Graduação)
 
@@ -69,11 +57,7 @@ processamento de documentos e queries de banco de dados.
 > **[leodah20.github.io/chatbot-front-demo](https://leodah20.github.io/chatbot-front-demo/)**
 > (sem backend real — só demonstração de UI)
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-> LOAD "TECHSTACK.PRG",8,1
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+`> LOAD "TECHSTACK.PRG",8,1`
 
 **Redes & Infra**
 
@@ -107,11 +91,7 @@ processamento de documentos e queries de banco de dados.
 ![NLP](https://img.shields.io/badge/NLP-9bbc0f?style=for-the-badge&labelColor=0f380f)
 ![AWS](https://img.shields.io/badge/AWS-9bbc0f?style=for-the-badge&labelColor=0f380f)
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-> LOAD "CERTS.PRG",8,1
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+`> LOAD "CERTS.PRG",8,1`
 
 | Certificação | Emissor | Data |
 |---|---|---|
@@ -124,11 +104,7 @@ processamento de documentos e queries de banco de dados.
 | Arduino Básico | UTFPR | Abr 2019 |
 | EFSET English (C2 Proficient — 75/100) | EF SET | Set 2021 |
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-> LOAD "EXPERIENCE.PRG",8,1
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+`> LOAD "EXPERIENCE.PRG",8,1`
 
 **Estágio — Build Engenharia** · Automação Predial & Redes
 `Set 2025 → Presente` · São Paulo, SP
@@ -145,11 +121,7 @@ propostas, planejamento estratégico.
 `Dez 2021 – Abr 2022` · Guarulhos, SP
 Relatórios administrativos, gestão financeira, controle de contratos.
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-> LOAD "EDUCATION.PRG",8,1
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+`> LOAD "EDUCATION.PRG",8,1`
 
 **Bacharelado em Ciência da Computação** — Universidade Paulista (UNIP)
 `Ago 2022 → Jun 2026` (cursando)
@@ -159,11 +131,9 @@ Relatórios administrativos, gestão financeira, controle de contratos.
 
 <div align="center">
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-  G A M E   O V E R
-  CONTINUE? > github.com/leodah20 · linkedin.com/in/leonardo-cordeiro-sutil
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+---
+
+**G A M E   O V E R**
+`CONTINUE? > github.com/leodah20 · linkedin.com/in/leonardo-cordeiro-sutil`
 
 </div>
