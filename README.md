@@ -61,6 +61,14 @@ processamento de documentos e queries de banco de dados.
 > **[leodah20.github.io/chatbot-front-demo](https://leodah20.github.io/chatbot-front-demo/)**
 > (sem backend real — só demonstração de UI)
 
+`> LOAD "PROJECTS.PRG",8,1`
+
+| Projeto | Descrição | Links |
+|---|---|---|
+| **Portfolio pessoal** | Site de currículo estilo terminal, com formação, experiência e skills | [site](https://leodah20.github.io) · [código](https://github.com/leodah20/leodah20.github.io) |
+| **ecofuturo** | Site sobre energias renováveis no Brasil — APS de Programação Web Responsiva (UNIP) | [site](https://leodah20.github.io/APS/) · [código](https://github.com/leodah20/APS) |
+| **chatbot-front (demo)** | Protótipo estático do painel administrativo do AcademicBot | [demo](https://leodah20.github.io/chatbot-front-demo/) · [código](https://github.com/leodah20/chatbot-front) |
+
 `> LOAD "TECHSTACK.PRG",8,1`
 
 **Redes & Infra**
