@@ -12,7 +12,7 @@ import sys
 from datetime import datetime, timezone
 
 import requests
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageChops, ImageFilter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -26,6 +26,13 @@ GB_DARK = "#306230"
 GB_DARKEST = "#0f380f"
 GB_BEZEL = "#8f9490"
 GB_BEZEL_DARK = "#5a5f5c"
+
+# Neon-pixel palette for the contribution heatmap (arcade-cabinet vibe)
+NEON_BG = "#080b09"
+NEON_GRID = "#141d17"
+NEON_TEXT = "#7cffb2"
+NEON_LEVELS = ["#131a15", "#0b6b3a", "#12a44c", "#2bff7a", "#c8ffe0"]
+MONTH_ABBR = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
 
 
 def font(size):
@@ -124,7 +131,7 @@ query($login: String!) {
 
 def fetch_contributions(username, token):
     if not token:
-        return {"total": 0, "streak": 0}
+        return {"total": 0, "streak": 0, "weeks": []}
     r = requests.post(
         "https://api.github.com/graphql",
         json={"query": CONTRIB_QUERY, "variables": {"login": username}},
@@ -146,7 +153,7 @@ def fetch_contributions(username, token):
         else:
             break
 
-    return {"total": cal["totalContributions"], "streak": streak}
+    return {"total": cal["totalContributions"], "streak": streak, "weeks": cal["weeks"]}
 
 
 # ---------------------------------------------------------------------------
@@ -218,6 +225,104 @@ def build_tracker(profile, repo_stats, contrib, out_path):
     print(f"wrote {out_path}")
 
 
+def contrib_level(count):
+    if count == 0:
+        return 0
+    if count <= 2:
+        return 1
+    if count <= 5:
+        return 2
+    if count <= 9:
+        return 3
+    return 4
+
+
+def build_contrib_heatmap(weeks, total, streak, out_path):
+    if not weeks:
+        print("no contribution data (missing token?) — skipping contrib.png")
+        return
+
+    cell, gap = 11, 3
+    pitch = cell + gap
+    left_pad = 34
+    top_pad = 46
+    outer = 18
+    legend_h = 26
+
+    n_weeks = len(weeks)
+    grid_w = n_weeks * pitch
+    grid_h = 7 * pitch
+
+    W = outer * 2 + left_pad + grid_w
+    H = outer * 2 + top_pad + grid_h + legend_h
+
+    img = Image.new("RGB", (W, H), NEON_BG)
+    draw = ImageDraw.Draw(img)
+
+    f_title = font(14)
+    f_tiny = font(8)
+
+    grid_x = outer + left_pad
+    grid_y = outer + top_pad
+
+    # ---- glow layer: bright squares for "lit" cells, blurred, screen-blended in
+    glow = Image.new("RGB", (W, H), "#000000")
+    glow_draw = ImageDraw.Draw(glow)
+
+    day_labels = {1: "MON", 3: "WED", 5: "FRI"}
+    last_month = None
+
+    for wi, week in enumerate(weeks):
+        x0 = grid_x + wi * pitch
+        for di, day in enumerate(week["contributionDays"]):
+            y0 = grid_y + di * pitch
+            level = contrib_level(day["contributionCount"])
+            color = NEON_LEVELS[level]
+
+            if level >= 2:
+                glow_draw.rectangle([x0, y0, x0 + cell, y0 + cell], fill=color)
+
+            pixel_rect(draw, [x0, y0, x0 + cell, y0 + cell], color)
+
+            # Month label: first week that contains the 1st of a new month
+            day_date = datetime.strptime(day["date"], "%Y-%m-%d")
+            if day_date.day <= 7 and day_date.month != last_month:
+                last_month = day_date.month
+                draw.text((x0, grid_y - 16), MONTH_ABBR[day_date.month - 1], font=f_tiny, fill=NEON_TEXT)
+
+    glow = glow.filter(ImageFilter.GaussianBlur(radius=3))
+    img = ImageChops.screen(img, glow)
+    draw = ImageDraw.Draw(img)
+
+    # Re-draw crisp cells on top of the glow (glow blur softens edges otherwise)
+    for wi, week in enumerate(weeks):
+        x0 = grid_x + wi * pitch
+        for di, day in enumerate(week["contributionDays"]):
+            y0 = grid_y + di * pitch
+            level = contrib_level(day["contributionCount"])
+            pixel_rect(draw, [x0, y0, x0 + cell, y0 + cell], NEON_LEVELS[level])
+
+    for row, label in day_labels.items():
+        draw.text((outer, grid_y + row * pitch - 1), label, font=f_tiny, fill=NEON_TEXT)
+
+    # Title + live stats line
+    draw.text((outer, outer), "CONTRIB.PRG", font=f_title, fill=NEON_TEXT)
+    subtitle = f"{total} CONTRIBUTIONS IN THE LAST YEAR  ·  STREAK {streak}D"
+    draw.text((outer, outer + 22), subtitle, font=f_tiny, fill="#3fae74")
+
+    # Legend
+    leg_y = grid_y + grid_h + 12
+    draw.text((grid_x, leg_y), "LESS", font=f_tiny, fill="#3fae74")
+    lx = grid_x + 40
+    for lvl_color in NEON_LEVELS:
+        pixel_rect(draw, [lx, leg_y - 1, lx + cell, leg_y - 1 + cell], lvl_color)
+        lx += pitch
+    draw.text((lx + 6, leg_y), "MORE", font=f_tiny, fill="#3fae74")
+
+    img.save(out_path)
+    print(f"wrote {out_path}")
+
+
 def build_banner(profile, out_path):
     W, H = 760, 220
     img = Image.new("RGB", (W, H), GB_BEZEL_DARK)
@@ -260,6 +365,7 @@ def main():
     contrib = fetch_contributions(args.username, args.token)
 
     build_tracker(profile, repo_stats, contrib, os.path.join(OUT_DIR, "tracker.png"))
+    build_contrib_heatmap(contrib["weeks"], contrib["total"], contrib["streak"], os.path.join(OUT_DIR, "contrib.png"))
 
     if not args.skip_banner:
         build_banner(profile, os.path.join(OUT_DIR, "banner.png"))

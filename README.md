@@ -28,6 +28,10 @@ informação vinda de projetos anteriores.
 <sub>Cartucho gerado por script proprio (<a href="scripts/generate_assets.py">scripts/generate_assets.py</a>) rodando em <a href=".github/workflows/update-tracker.yml">GitHub Actions</a> a cada 6h — nao e um badge de terceiro, e nao e "tempo real" no sentido literal (um README estatico nao roda JS), mas o mais perto disso que da pra fazer sem backend.</sub>
 </div>
 
+<div align="center">
+<img src="assets/contrib.png" alt="Grafico de contribuicoes do ultimo ano, estilo neon-pixel" width="100%" />
+</div>
+
 `> LOAD "FLAGSHIP.PRG",8,1`
 
 ### AcademicBot — Chatbot Inteligente Acadêmico (TCC de Graduação)
