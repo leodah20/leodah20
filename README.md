@@ -12,7 +12,7 @@
 
 `> LOAD "ABOUT.PRG",8,1`
 
-Estudante de Ciência da Computação (UNIP, 2022–2026), full-stack por
+Graduado em Ciência da Computação (UNIP, 2022–2026), full-stack por
 formação e hoje também de infraestrutura/redes na rotina (Analista de
 Redes Jr. na Build Engenharia). No dia a dia transito entre mobile,
 backend, IA aplicada e redes — os projetos abaixo contam melhor essa
