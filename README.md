@@ -12,13 +12,13 @@
 
 `> LOAD "ABOUT.PRG",8,1`
 
-Estudante de Ciência da Computação (UNIP, 2022-2026) atuando hoje como
-**Analista de Redes Jr. na Build Engenharia** — infraestrutura, servidores
-e redes corporativas em ambiente produtivo real. Migrando de full-stack
-para o lado de infra/redes, com base sólida em NLP e segurança da
-informação vinda de projetos anteriores.
+Estudante de Ciência da Computação (UNIP, 2022–2026), full-stack por
+formação e hoje também de infraestrutura/redes na rotina (Analista de
+Redes Jr. na Build Engenharia). No dia a dia transito entre mobile,
+backend, IA aplicada e redes — os projetos abaixo contam melhor essa
+história do que qualquer lista de skills.
 
-`C2 ENGLISH` · `CYBERSEC FUNDAMENTALS` · `LINUX & OPEN SOURCE`
+`TYPESCRIPT` · `PYTHON` · `CLEAN ARCHITECTURE` · `C2 ENGLISH` · `LINUX & OPEN SOURCE`
 
 `> LOAD "STATS.PRG",8,1` — auto-atualiza a cada 6h via GitHub Actions
 
@@ -32,46 +32,80 @@ informação vinda de projetos anteriores.
 <img src="assets/contrib.png" alt="Grafico de contribuicoes do ultimo ano, estilo neon-pixel" width="100%" />
 </div>
 
-`> LOAD "FLAGSHIP.PRG",8,1`
+`> LOAD "FEED.PRG",8,1` — status dos repositórios em desenvolvimento, auto-atualizado pelo mesmo script
 
-### AcademicBot — Chatbot Inteligente Acadêmico (TCC de Graduação)
+<!-- FEED:START -->
 
-Plataforma que automatiza suporte acadêmico através de um chatbot treinado
-com materiais didáticos. Professores fazem upload de documentos via painel
-administrativo; o sistema processa e disponibiliza um assistente IA 24/7
-para alunos.
+| Projeto | Linguagem | Última atividade | Status |
+|---|---|---|---|
+| [`pokemon-trainer-companion`](https://github.com/leodah20/pokemon-trainer-companion) | TypeScript | hoje | 🟢 Em desenvolvimento |
+| [`linkedin-connect-ai`](https://github.com/leodah20/linkedin-connect-ai) | Python | hoje | 🟢 Em desenvolvimento |
+| [`TCC-ChatBotAcademico`](https://github.com/leodah20/TCC-ChatBotAcademico) | Python | há 2d | 🟢 Em desenvolvimento |
+| [`smc-portfolio`](https://github.com/leodah20/smc-portfolio) | Python | há 4d | 🟢 Em desenvolvimento |
+| [`leodah20.github.io`](https://github.com/leodah20/leodah20.github.io) | CSS | há 5d | 🟢 Em desenvolvimento |
+| [`APS`](https://github.com/leodah20/APS) | HTML | há 5d | 🟢 Em desenvolvimento |
+| [`projetin`](https://github.com/leodah20/projetin) | — | há 3m | ⚪ Pausado |
+| [`chatbot-front`](https://github.com/leodah20/chatbot-front) | HTML | há 7m | ⚪ Pausado |
 
-```
-Frontend (HTML/CSS/JS)  →  REST API (Python)  →  Rasa NLP Engine
-     |                           |                      |
-Admin Panel               API Backend & DB       Intent Recognition
-Document Upload           Request Processing      Entity Extraction
-```
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-07-15 18:47 UTC</sub>
 
-| Repo | Papel |
-|---|---|
-| [`chatbot-front`](https://github.com/leodah20/chatbot-front) | Interface web — minha atuação principal |
-| [`chatbot_rasa`](https://github.com/leodah20/chatbot_rasa) | Motor NLP (projeto do grupo) |
-| [`ChatBot_API`](https://github.com/leodah20/ChatBot_API) | Backend REST (projeto do grupo) |
-
-**Minha atuação:** painel administrativo (frontend), integração com a API,
-processamento de documentos e queries de banco de dados.
-
-> Protótipo estático do front-end, hospedado e navegável:
-> **[leodah20.github.io/chatbot-front-demo](https://leodah20.github.io/chatbot-front-demo/)**
-> (sem backend real — só demonstração de UI)
+<!-- FEED:END -->
 
 `> LOAD "PROJECTS.PRG",8,1`
 
-| Projeto | Descrição | Links |
-|---|---|---|
-| **Portfolio pessoal** | Site de currículo estilo terminal, com formação, experiência e skills | [site](https://leodah20.github.io) · [código](https://github.com/leodah20/leodah20.github.io) |
-| **ecofuturo** | Site sobre energias renováveis no Brasil — APS de Programação Web Responsiva (UNIP) | [site](https://leodah20.github.io/APS/) · [código](https://github.com/leodah20/APS) |
-| **chatbot-front (demo)** | Protótipo estático do painel administrativo do AcademicBot | [demo](https://leodah20.github.io/chatbot-front-demo/) · [código](https://github.com/leodah20/chatbot-front) |
+### 🎮 pokemon-trainer-companion
+
+App companion pra Pokémon GO: calculadoras de IV/batalha via overlay com
+OCR de screenshot (nunca toca o client ou a conta do jogo — ToS-safe por
+design), mais um "Pokédex parceiro" de lore/trivia opcional. React Native
+(TypeScript, bare workflow) + NestJS + Prisma + PostgreSQL, Clean
+Architecture nas duas pontas.
+
+[`repo`](https://github.com/leodah20/pokemon-trainer-companion)
+
+### 🤝 linkedin-connect-ai
+
+Assistente com IA pra priorizar e personalizar convites de conexão no
+LinkedIn: extensão de navegador roda na sua própria sessão logada,
+backend analisa cada perfil com um LLM contra objetivos de carreira
+configuráveis. Sem senha armazenada, limite diário de envios, revisão
+humana obrigatória pra casos de aderência incerta.
+
+[`repo`](https://github.com/leodah20/linkedin-connect-ai)
+
+### 🎓 TCC-ChatBotAcademico
+
+Chatbot acadêmico do TCC de graduação: FastAPI/Flask + Rasa. Professores
+sobem material didático via painel administrativo, sistema disponibiliza
+um assistente IA 24/7 pra alunos. Consolida em um único repo o que antes
+estava dividido em `chatbot-front` / `chatbot_rasa` / `ChatBot_API`
+(mantidos no perfil como histórico, não mais ativos).
+
+[`repo`](https://github.com/leodah20/TCC-ChatBotAcademico) · [`demo do front`](https://leodah20.github.io/chatbot-front-demo/)
 
 `> LOAD "TECHSTACK.PRG",8,1`
 
-**Redes & Infra**
+**Full-Stack & Mobile**
+
+![React Native](https://img.shields.io/badge/REACT_NATIVE-9bbc0f?style=for-the-badge&labelColor=0f380f)
+![TypeScript](https://img.shields.io/badge/TYPESCRIPT-9bbc0f?style=for-the-badge&labelColor=0f380f)
+![NestJS](https://img.shields.io/badge/NESTJS-9bbc0f?style=for-the-badge&labelColor=0f380f)
+![Prisma](https://img.shields.io/badge/PRISMA-9bbc0f?style=for-the-badge&labelColor=0f380f)
+![PostgreSQL](https://img.shields.io/badge/POSTGRESQL-9bbc0f?style=for-the-badge&labelColor=0f380f)
+![JavaScript](https://img.shields.io/badge/JAVASCRIPT-9bbc0f?style=for-the-badge&labelColor=0f380f)
+![HTML5](https://img.shields.io/badge/HTML5-9bbc0f?style=for-the-badge&labelColor=0f380f)
+![CSS3](https://img.shields.io/badge/CSS3-9bbc0f?style=for-the-badge&labelColor=0f380f)
+
+**Backend & IA**
+
+![Python](https://img.shields.io/badge/PYTHON-9bbc0f?style=for-the-badge&labelColor=0f380f)
+![FastAPI](https://img.shields.io/badge/FASTAPI-9bbc0f?style=for-the-badge&labelColor=0f380f)
+![Flask](https://img.shields.io/badge/FLASK-9bbc0f?style=for-the-badge&labelColor=0f380f)
+![Rasa](https://img.shields.io/badge/RASA-9bbc0f?style=for-the-badge&labelColor=0f380f)
+![NLP](https://img.shields.io/badge/NLP-9bbc0f?style=for-the-badge&labelColor=0f380f)
+![AWS](https://img.shields.io/badge/AWS-9bbc0f?style=for-the-badge&labelColor=0f380f)
+
+**Redes & Infra** (rotina como Analista de Redes Jr.)
 
 ![TCP/IP](https://img.shields.io/badge/TCP%2FIP-9bbc0f?style=for-the-badge&labelColor=0f380f)
 ![VLANs](https://img.shields.io/badge/VLANs-9bbc0f?style=for-the-badge&labelColor=0f380f)
@@ -80,66 +114,15 @@ processamento de documentos e queries de banco de dados.
 ![pfSense](https://img.shields.io/badge/PFSENSE-9bbc0f?style=for-the-badge&labelColor=0f380f)
 ![FortiGate](https://img.shields.io/badge/FORTIGATE-9bbc0f?style=for-the-badge&labelColor=0f380f)
 ![Zabbix](https://img.shields.io/badge/ZABBIX-9bbc0f?style=for-the-badge&labelColor=0f380f)
-
-**Servidores & Virtualização**
-
 ![Windows Server](https://img.shields.io/badge/WINDOWS_SERVER-9bbc0f?style=for-the-badge&labelColor=0f380f)
 ![Linux](https://img.shields.io/badge/LINUX-9bbc0f?style=for-the-badge&labelColor=0f380f)
 ![VMware ESXi](https://img.shields.io/badge/VMWARE_ESXI-9bbc0f?style=for-the-badge&labelColor=0f380f)
 ![Hyper-V](https://img.shields.io/badge/HYPER--V-9bbc0f?style=for-the-badge&labelColor=0f380f)
 
-**Linguagens & Dev**
+**Tooling**
 
-![Python](https://img.shields.io/badge/PYTHON-9bbc0f?style=for-the-badge&labelColor=0f380f)
-![JavaScript](https://img.shields.io/badge/JAVASCRIPT-9bbc0f?style=for-the-badge&labelColor=0f380f)
-![Java](https://img.shields.io/badge/JAVA-9bbc0f?style=for-the-badge&labelColor=0f380f)
-![HTML5](https://img.shields.io/badge/HTML5-9bbc0f?style=for-the-badge&labelColor=0f380f)
-![CSS3](https://img.shields.io/badge/CSS3-9bbc0f?style=for-the-badge&labelColor=0f380f)
 ![Git](https://img.shields.io/badge/GIT-9bbc0f?style=for-the-badge&labelColor=0f380f)
-
-**IA / Dados**
-
-![Rasa](https://img.shields.io/badge/RASA-9bbc0f?style=for-the-badge&labelColor=0f380f)
-![NLP](https://img.shields.io/badge/NLP-9bbc0f?style=for-the-badge&labelColor=0f380f)
-![AWS](https://img.shields.io/badge/AWS-9bbc0f?style=for-the-badge&labelColor=0f380f)
-
-`> LOAD "CERTS.PRG",8,1`
-
-| Certificação | Emissor | Data |
-|---|---|---|
-| ⭐ AWS Educate: Introduction to Generative AI | Amazon Web Services | Mar 2025 |
-| ⭐ Começando com Cisco Packet Tracer | Cisco Networking Academy | Abr 2026 |
-| Introdução à Cibersegurança | Santander Brasil | Abr 2025 |
-| Fundamentos de HTTP para Desenvolvedores | LinkedIn Learning | Abr 2025 |
-| Segurança da Informação e Proteção de Dados | Universidade Paulista | Out 2024 |
-| IA nas Empresas | Universidade Paulista | Out 2024 |
-| Arduino Básico | UTFPR | Abr 2019 |
-| EFSET English (C2 Proficient — 75/100) | EF SET | Set 2021 |
-
-`> LOAD "EXPERIENCE.PRG",8,1`
-
-**Estágio — Build Engenharia** · Automação Predial & Redes
-`Set 2025 → Presente` · São Paulo, SP
-Instalação e configuração de servidores; gerenciamento de ativos de rede;
-programação de CLPs, painéis de detecção/alarme de incêndio, controle de
-acesso e CFTV.
-
-**Bolsista — Incubadora Tecnológica UTFPR** · Gestão Administrativa
-`Nov 2020 – Nov 2021` · Cornélio Procópio, PR
-Apoio à gestão de startups incubadas, relatórios técnicos, análise de
-propostas, planejamento estratégico.
-
-**Estagiário — Lemos & Lemos Assessoria** · Engenharia e Gestão
-`Dez 2021 – Abr 2022` · Guarulhos, SP
-Relatórios administrativos, gestão financeira, controle de contratos.
-
-`> LOAD "EDUCATION.PRG",8,1`
-
-**Bacharelado em Ciência da Computação** — Universidade Paulista (UNIP)
-`Ago 2022 → Jun 2026` (cursando)
-
-**Engenharia Elétrica** (incompleto) — UTFPR, Cornélio Procópio, PR
-`Fev 2018 – Fev 2019`
+![GitHub Actions](https://img.shields.io/badge/GITHUB_ACTIONS-9bbc0f?style=for-the-badge&labelColor=0f380f)
 
 <div align="center">
 

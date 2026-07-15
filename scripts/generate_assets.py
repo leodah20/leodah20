@@ -66,7 +66,7 @@ def fetch_profile(username, token):
     return r.json()
 
 
-def fetch_repo_stats(username, token):
+def fetch_repos(username, token):
     repos = []
     page = 1
     while True:
@@ -84,7 +84,10 @@ def fetch_repo_stats(username, token):
         page += 1
         if page > 5:
             break
+    return repos
 
+
+def compute_repo_stats(repos, token):
     total_stars = sum(repo.get("stargazers_count", 0) for repo in repos)
 
     lang_bytes = {}
@@ -154,6 +157,69 @@ def fetch_contributions(username, token):
             break
 
     return {"total": cal["totalContributions"], "streak": streak, "weeks": cal["weeks"]}
+
+
+# ---------------------------------------------------------------------------
+# Project feed (markdown, injected into README.md between marker comments)
+# ---------------------------------------------------------------------------
+
+FEED_START = "<!-- FEED:START -->"
+FEED_END = "<!-- FEED:END -->"
+
+
+def relative_age(days):
+    if days <= 0:
+        return "hoje"
+    if days == 1:
+        return "ontem"
+    if days < 30:
+        return f"há {days}d"
+    return f"há {days // 30}m"
+
+
+def repo_status(days):
+    if days <= 14:
+        return "🟢 Em desenvolvimento"
+    if days <= 90:
+        return "🟡 Manutenção"
+    return "⚪ Pausado"
+
+
+def build_feed_markdown(repos, username, limit=8):
+    now = datetime.now(timezone.utc)
+    candidates = [
+        r for r in repos
+        if not r.get("fork") and not r.get("archived") and r["name"].lower() != username.lower()
+    ]
+    candidates.sort(key=lambda r: r["pushed_at"], reverse=True)
+    candidates = candidates[:limit]
+
+    lines = ["| Projeto | Linguagem | Última atividade | Status |", "|---|---|---|---|"]
+    for r in candidates:
+        pushed = datetime.strptime(r["pushed_at"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+        days = (now - pushed).days
+        name = f"[`{r['name']}`]({r['html_url']})"
+        lang = r.get("language") or "—"
+        lines.append(f"| {name} | {lang} | {relative_age(days)} | {repo_status(days)} |")
+
+    ts = now.strftime("%Y-%m-%d %H:%M UTC")
+    lines.append("")
+    lines.append(f"<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: {ts}</sub>")
+    return "\n".join(lines)
+
+
+def update_readme_feed(feed_md, readme_path):
+    with open(readme_path, "r", encoding="utf-8") as f:
+        content = f.read()
+    if FEED_START not in content or FEED_END not in content:
+        print("README has no feed markers — skipping feed update", file=sys.stderr)
+        return
+    start = content.index(FEED_START) + len(FEED_START)
+    end = content.index(FEED_END)
+    content = content[:start] + "\n\n" + feed_md + "\n\n" + content[end:]
+    with open(readme_path, "w", encoding="utf-8") as f:
+        f.write(content)
+    print(f"updated feed in {readme_path}")
 
 
 # ---------------------------------------------------------------------------
@@ -361,7 +427,8 @@ def main():
     os.makedirs(OUT_DIR, exist_ok=True)
 
     profile = fetch_profile(args.username, args.token)
-    repo_stats = fetch_repo_stats(args.username, args.token)
+    repos = fetch_repos(args.username, args.token)
+    repo_stats = compute_repo_stats(repos, args.token)
     contrib = fetch_contributions(args.username, args.token)
 
     build_tracker(profile, repo_stats, contrib, os.path.join(OUT_DIR, "tracker.png"))
@@ -369,6 +436,9 @@ def main():
 
     if not args.skip_banner:
         build_banner(profile, os.path.join(OUT_DIR, "banner.png"))
+
+    feed_md = build_feed_markdown(repos, args.username)
+    update_readme_feed(feed_md, os.path.join(ROOT, "README.md"))
 
 
 if __name__ == "__main__":

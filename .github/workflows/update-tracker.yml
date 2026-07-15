@@ -1,4 +1,4 @@
-name: Update Game Boy tracker
+name: Update Game Boy tracker & project feed
 
 on:
   schedule:
@@ -25,15 +25,15 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Generate tracker card
+      - name: Generate tracker card and project feed
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_assets.py --username leodah20 --skip-banner
 
-      - name: Commit updated tracker
+      - name: Commit updated tracker and feed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/tracker.png assets/contrib.png
-          git diff --cached --quiet && echo "No changes" || git commit -m "chore: update tracker [skip ci]"
+          git add assets/tracker.png assets/contrib.png README.md
+          git diff --cached --quiet && echo "No changes" || git commit -m "chore: update tracker and project feed [skip ci]"
           git push
