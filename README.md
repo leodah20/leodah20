@@ -39,15 +39,15 @@ história do que qualquer lista de skills.
 | Projeto | Linguagem | Última atividade | Status |
 |---|---|---|---|
 | [`pokemon-trainer-companion`](https://github.com/leodah20/pokemon-trainer-companion) | TypeScript | hoje | 🟢 Em desenvolvimento |
-| [`linkedin-connect-ai`](https://github.com/leodah20/linkedin-connect-ai) | Python | hoje | 🟢 Em desenvolvimento |
+| [`linkedin-connect-ai`](https://github.com/leodah20/linkedin-connect-ai) | Python | ontem | 🟢 Em desenvolvimento |
 | [`TCC-ChatBotAcademico`](https://github.com/leodah20/TCC-ChatBotAcademico) | Python | há 3d | 🟢 Em desenvolvimento |
 | [`smc-portfolio`](https://github.com/leodah20/smc-portfolio) | Python | há 5d | 🟢 Em desenvolvimento |
-| [`leodah20.github.io`](https://github.com/leodah20/leodah20.github.io) | CSS | há 5d | 🟢 Em desenvolvimento |
-| [`APS`](https://github.com/leodah20/APS) | HTML | há 5d | 🟢 Em desenvolvimento |
+| [`leodah20.github.io`](https://github.com/leodah20/leodah20.github.io) | CSS | há 6d | 🟢 Em desenvolvimento |
+| [`APS`](https://github.com/leodah20/APS) | HTML | há 6d | 🟢 Em desenvolvimento |
 | [`projetin`](https://github.com/leodah20/projetin) | — | há 3m | ⚪ Pausado |
 | [`chatbot-front`](https://github.com/leodah20/chatbot-front) | HTML | há 7m | ⚪ Pausado |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-07-16 13:25 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-07-16 18:59 UTC</sub>
 
 <!-- FEED:END -->
 
