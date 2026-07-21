@@ -41,13 +41,13 @@ história do que qualquer lista de skills.
 | [`pokemon-trainer-companion`](https://github.com/leodah20/pokemon-trainer-companion) | TypeScript | há 3d | 🟢 Em desenvolvimento |
 | [`linkedin-connect-ai`](https://github.com/leodah20/linkedin-connect-ai) | Python | há 5d | 🟢 Em desenvolvimento |
 | [`TCC-ChatBotAcademico`](https://github.com/leodah20/TCC-ChatBotAcademico) | Python | há 7d | 🟢 Em desenvolvimento |
-| [`smc-portfolio`](https://github.com/leodah20/smc-portfolio) | Python | há 9d | 🟢 Em desenvolvimento |
+| [`smc-portfolio`](https://github.com/leodah20/smc-portfolio) | Python | há 10d | 🟢 Em desenvolvimento |
 | [`leodah20.github.io`](https://github.com/leodah20/leodah20.github.io) | CSS | há 10d | 🟢 Em desenvolvimento |
 | [`APS`](https://github.com/leodah20/APS) | HTML | há 10d | 🟢 Em desenvolvimento |
 | [`projetin`](https://github.com/leodah20/projetin) | — | há 3m | ⚪ Pausado |
 | [`chatbot-front`](https://github.com/leodah20/chatbot-front) | HTML | há 7m | ⚪ Pausado |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-07-20 19:28 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-07-21 01:55 UTC</sub>
 
 <!-- FEED:END -->
 
