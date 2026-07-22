@@ -411,7 +411,7 @@ def build_contrib_heatmap(weeks, total, streak, out_path):
 
 
 def build_banner(profile, out_path):
-    W, H = 760, 220
+    W, H = 760, 132
     img = Image.new("RGB", (W, H), GB_DARKEST)
     draw = ImageDraw.Draw(img)
 
@@ -420,25 +420,22 @@ def build_banner(profile, out_path):
         pixel_rect(draw, [0, yy, W, yy + 1], "#0e2c52")
 
     # double pixel frame
-    draw.rectangle([10, 10, W - 10, H - 10], outline=GB_LIGHT, width=2)
-    draw.rectangle([18, 18, W - 18, H - 18], outline=GB_DARK, width=2)
+    draw.rectangle([8, 8, W - 8, H - 8], outline=GB_LIGHT, width=2)
+    draw.rectangle([14, 14, W - 14, H - 14], outline=GB_DARK, width=2)
 
     # pixel diamonds in the corners
-    for cx, cy in [(34, 34), (W - 34, 34), (34, H - 34), (W - 34, H - 34)]:
+    for cx, cy in [(30, 30), (W - 30, 30), (30, H - 30), (W - 30, H - 30)]:
         for dx, dy in [(0, -6), (6, 0), (0, 6), (-6, 0), (0, 0)]:
             pixel_rect(draw, [cx + dx - 3, cy + dy - 3, cx + dx + 3, cy + dy + 3], GB_LIGHT)
 
-    f_name = font(22)
-    f_role = font(11)
-    f_flavor = font(9)
+    f_name = font(20)
+    f_role = font(10)
 
     name = "LEONARDO CORDEIRO"
     role = "> FULL-STACK DEV / REDES & INFRA"
-    flavor = "- PRESS START TO VIEW PROFILE -"
 
-    draw.text(((W - text_w(draw, name, f_name)) // 2, 66), name, font=f_name, fill=GB_LIGHTEST)
-    draw.text(((W - text_w(draw, role, f_role)) // 2, 106), role, font=f_role, fill=GB_LIGHT)
-    draw.text(((W - text_w(draw, flavor, f_flavor)) // 2, 156), flavor, font=f_flavor, fill=GB_DARK)
+    draw.text(((W - text_w(draw, name, f_name)) // 2, 44), name, font=f_name, fill=GB_LIGHTEST)
+    draw.text(((W - text_w(draw, role, f_role)) // 2, 76), role, font=f_role, fill=GB_LIGHT)
 
     img.save(out_path)
     print(f"wrote {out_path}")
