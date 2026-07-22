@@ -19,19 +19,19 @@ ROOT = os.path.dirname(HERE)
 FONT_PATH = os.path.join(ROOT, "assets", "fonts", "PressStart2P.ttf")
 OUT_DIR = os.path.join(ROOT, "assets")
 
-# Classic Game Boy (DMG) 4-shade palette
-GB_LIGHTEST = "#9bbc0f"
-GB_LIGHT = "#8bac0f"
-GB_DARK = "#306230"
-GB_DARKEST = "#0f380f"
-GB_BEZEL = "#8f9490"
-GB_BEZEL_DARK = "#5a5f5c"
+# 4-shade retro palette, Game Boy structure but in "midnight arcade" blue
+GB_LIGHTEST = "#a8d8f0"
+GB_LIGHT = "#6fb3dd"
+GB_DARK = "#1d5b8f"
+GB_DARKEST = "#0b2545"
+GB_BEZEL = "#8f9aa8"
+GB_BEZEL_DARK = "#2b3a4f"
 
 # Neon-pixel palette for the contribution heatmap (arcade-cabinet vibe)
-NEON_BG = "#080b09"
-NEON_GRID = "#141d17"
-NEON_TEXT = "#7cffb2"
-NEON_LEVELS = ["#131a15", "#0b6b3a", "#12a44c", "#2bff7a", "#c8ffe0"]
+NEON_BG = "#060a14"
+NEON_GRID = "#131b2b"
+NEON_TEXT = "#7cc7ff"
+NEON_LEVELS = ["#101828", "#0b3e73", "#1173c9", "#3fa9ff", "#d6ecff"]
 MONTH_ABBR = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
 
 
@@ -227,65 +227,78 @@ def update_readme_feed(feed_md, readme_path):
 # ---------------------------------------------------------------------------
 
 def build_tracker(profile, repo_stats, contrib, out_path):
-    W, H = 760, 380
-    img = Image.new("RGB", (W, H), GB_DARKEST)
+    W, H = 760, 400
+    img = Image.new("RGB", (W, H), GB_BEZEL_DARK)
     draw = ImageDraw.Draw(img)
 
-    # Screen area (GB-light background), with a dark bezel border.
-    bezel = 14
-    pixel_rect(draw, [0, 0, W, H], GB_BEZEL_DARK)
+    # Screen area with a double pixel frame.
+    bezel = 12
     pixel_rect(draw, [bezel, bezel, W - bezel, H - bezel], GB_LIGHTEST)
+    frame = bezel + 6
+    draw.rectangle([frame, frame, W - frame, H - frame], outline=GB_DARKEST, width=3)
 
-    f_title = font(16)
+    f_title = font(15)
     f_label = font(10)
-    f_big = font(22)
-    f_small = font(9)
+    f_big = font(20)
+    f_small = font(8)
 
-    pad = bezel + 18
-    y = pad
+    pad = frame + 18
 
-    draw.text((pad, y), "LEODAH20.GB", font=f_title, fill=GB_DARKEST)
-    y += 34
-    pixel_rect(draw, [pad, y, W - pad, y + 3], GB_DARK)
-    y += 22
+    # Inverted header bar
+    header_h = 36
+    pixel_rect(draw, [frame + 3, frame + 3, W - frame - 3, frame + 3 + header_h], GB_DARKEST)
+    draw.text((pad, frame + 14), "LEODAH20.GB", font=f_title, fill=GB_LIGHTEST)
+    sys_txt = "* SYS.OK *"
+    draw.text((W - pad - text_w(draw, sys_txt, f_small), frame + 17), sys_txt, font=f_small, fill=GB_LIGHT)
 
-    # Stat row: repos / stars / followers
+    y = frame + 3 + header_h + 20
+
+    # Stat panels: repos / stars / followers in outlined boxes
     stats_row = [
         ("REPOS", str(repo_stats["public_repos"])),
         ("STARS", str(repo_stats["total_stars"])),
         ("FOLLOWERS", str(profile.get("followers", 0))),
     ]
-    col_w = (W - 2 * pad) // 3
+    gap = 14
+    panel_w = (W - 2 * pad - 2 * gap) // 3
+    panel_h = 62
     for i, (label, value) in enumerate(stats_row):
-        x = pad + i * col_w
-        draw.text((x, y), label, font=f_small, fill=GB_DARK)
-        draw.text((x, y + 16), value, font=f_big, fill=GB_DARKEST)
-    y += 60
+        x = pad + i * (panel_w + gap)
+        draw.rectangle([x, y, x + panel_w, y + panel_h], outline=GB_DARK, width=2)
+        pixel_rect(draw, [x + 2, y + 2, x + panel_w - 2, y + 22], GB_LIGHT)
+        draw.text((x + 10, y + 8), label, font=f_small, fill=GB_DARKEST)
+        draw.text((x + 10, y + 32), value, font=f_big, fill=GB_DARKEST)
+    y += panel_h + 22
 
-    # Contributions
+    # Contributions strip
     draw.text((pad, y), "CONTRIBUTIONS (1Y)", font=f_small, fill=GB_DARK)
     y += 16
     draw.text((pad, y), str(contrib["total"]), font=f_big, fill=GB_DARKEST)
-    draw.text((pad + 220, y + 6), f"STREAK {contrib['streak']}D", font=f_label, fill=GB_DARK)
-    y += 46
+    streak_txt = f"STREAK {contrib['streak']}D"
+    sx = pad + 230
+    draw.rectangle([sx - 8, y + 1, sx + text_w(draw, streak_txt, f_label) + 8, y + 21], outline=GB_DARK, width=2)
+    draw.text((sx, y + 6), streak_txt, font=f_label, fill=GB_DARK)
+    y += 44
 
-    # Top languages as pixel bars
+    # Top languages as segmented pixel bars
     draw.text((pad, y), "TOP LANGUAGES", font=f_small, fill=GB_DARK)
-    y += 20
+    y += 18
     bar_x = pad + 130
-    bar_max_w = (W - pad) - bar_x - 44
+    seg_w, seg_gap, seg_h = 8, 3, 10
+    n_segs = ((W - pad - 48) - bar_x) // (seg_w + seg_gap)
     for lang, pct in repo_stats["top_langs"] or [("N/A", 0)]:
         draw.text((pad, y), lang[:10].upper(), font=f_small, fill=GB_DARKEST)
-        pixel_rect(draw, [bar_x, y + 2, bar_x + bar_max_w, y + 10], GB_LIGHT)
-        fill_w = int(bar_max_w * pct / 100)
-        if fill_w > 0:
-            pixel_rect(draw, [bar_x, y + 2, bar_x + fill_w, y + 10], GB_DARKEST)
-        draw.text((bar_x + bar_max_w + 8, y - 2), f"{pct}%", font=f_small, fill=GB_DARK)
+        filled = round(n_segs * pct / 100)
+        for s in range(n_segs):
+            x0 = bar_x + s * (seg_w + seg_gap)
+            color = GB_DARKEST if s < filled else GB_LIGHT
+            pixel_rect(draw, [x0, y, x0 + seg_w, y + seg_h], color)
+        draw.text((bar_x + n_segs * (seg_w + seg_gap) + 8, y), f"{pct}%", font=f_small, fill=GB_DARK)
         y += 22
 
     # Footer: last updated timestamp (UTC)
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    draw.text((pad, H - bezel - 20), f"LAST SYNC {ts}", font=f_small, fill=GB_DARK)
+    draw.text((pad, H - frame - 24), f"LAST SYNC {ts}", font=f_small, fill=GB_DARK)
 
     img.save(out_path)
     print(f"wrote {out_path}")
@@ -311,7 +324,7 @@ def build_contrib_heatmap(weeks, total, streak, out_path):
     cell, gap = 11, 3
     pitch = cell + gap
     left_pad = 34
-    top_pad = 46
+    top_pad = 58
     outer = 18
     legend_h = 26
 
@@ -374,16 +387,16 @@ def build_contrib_heatmap(weeks, total, streak, out_path):
     # Title + live stats line
     draw.text((outer, outer), "CONTRIB.PRG", font=f_title, fill=NEON_TEXT)
     subtitle = f"{total} CONTRIBUTIONS IN THE LAST YEAR  ·  STREAK {streak}D"
-    draw.text((outer, outer + 22), subtitle, font=f_tiny, fill="#3fae74")
+    draw.text((outer, outer + 22), subtitle, font=f_tiny, fill="#3f74ae")
 
     # Legend
     leg_y = grid_y + grid_h + 12
-    draw.text((grid_x, leg_y), "LESS", font=f_tiny, fill="#3fae74")
+    draw.text((grid_x, leg_y), "LESS", font=f_tiny, fill="#3f74ae")
     lx = grid_x + 40
     for lvl_color in NEON_LEVELS:
         pixel_rect(draw, [lx, leg_y - 1, lx + cell, leg_y - 1 + cell], lvl_color)
         lx += pitch
-    draw.text((lx + 6, leg_y), "MORE", font=f_tiny, fill="#3fae74")
+    draw.text((lx + 6, leg_y), "MORE", font=f_tiny, fill="#3f74ae")
 
     img.save(out_path)
     print(f"wrote {out_path}")
@@ -391,27 +404,33 @@ def build_contrib_heatmap(weeks, total, streak, out_path):
 
 def build_banner(profile, out_path):
     W, H = 760, 220
-    img = Image.new("RGB", (W, H), GB_BEZEL_DARK)
+    img = Image.new("RGB", (W, H), GB_DARKEST)
     draw = ImageDraw.Draw(img)
 
-    bezel = 14
-    pixel_rect(draw, [bezel, bezel, W - bezel, H - bezel], GB_LIGHTEST)
+    # subtle scanline texture on the dark background
+    for yy in range(0, H, 4):
+        pixel_rect(draw, [0, yy, W, yy + 1], "#0e2c52")
 
-    # scanline texture
-    for yy in range(bezel, H - bezel, 4):
-        pixel_rect(draw, [bezel, yy, W - bezel, yy + 1], GB_LIGHT)
+    # double pixel frame
+    draw.rectangle([10, 10, W - 10, H - 10], outline=GB_LIGHT, width=2)
+    draw.rectangle([18, 18, W - 18, H - 18], outline=GB_DARK, width=2)
+
+    # pixel diamonds in the corners
+    for cx, cy in [(34, 34), (W - 34, 34), (34, H - 34), (W - 34, H - 34)]:
+        for dx, dy in [(0, -6), (6, 0), (0, 6), (-6, 0), (0, 0)]:
+            pixel_rect(draw, [cx + dx - 3, cy + dy - 3, cx + dx + 3, cy + dy + 3], GB_LIGHT)
 
     f_name = font(22)
-    f_role = font(12)
+    f_role = font(11)
     f_flavor = font(9)
 
     name = "LEONARDO CORDEIRO"
-    role = "> ANALISTA DE REDES JR."
-    flavor = "PRESS START TO VIEW PROFILE"
+    role = "> FULL-STACK DEV / REDES & INFRA"
+    flavor = "- PRESS START TO VIEW PROFILE -"
 
-    draw.text(((W - text_w(draw, name, f_name)) // 2, 70), name, font=f_name, fill=GB_DARKEST)
-    draw.text(((W - text_w(draw, role, f_role)) // 2, 108), role, font=f_role, fill=GB_DARK)
-    draw.text(((W - text_w(draw, flavor, f_flavor)) // 2, 160), flavor, font=f_flavor, fill=GB_DARK)
+    draw.text(((W - text_w(draw, name, f_name)) // 2, 66), name, font=f_name, fill=GB_LIGHTEST)
+    draw.text(((W - text_w(draw, role, f_role)) // 2, 106), role, font=f_role, fill=GB_LIGHT)
+    draw.text(((W - text_w(draw, flavor, f_flavor)) // 2, 156), flavor, font=f_flavor, fill=GB_DARK)
 
     img.save(out_path)
     print(f"wrote {out_path}")
