@@ -180,24 +180,32 @@ def relative_age(days):
 def repo_status(days):
     if days <= 14:
         return "🟢 Em desenvolvimento"
-    if days <= 90:
-        return "🟡 Manutenção"
-    return "⚪ Pausado"
+    return "🟡 Manutenção"
+
+
+# Repos with no push in this many days are considered dormant and left out
+# of the feed entirely — the feed is about what's actually moving.
+FEED_MAX_AGE_DAYS = 90
 
 
 def build_feed_markdown(repos, username, limit=8):
     now = datetime.now(timezone.utc)
+
+    def age_days(r):
+        pushed = datetime.strptime(r["pushed_at"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+        return (now - pushed).days
+
     candidates = [
         r for r in repos
         if not r.get("fork") and not r.get("archived") and r["name"].lower() != username.lower()
+        and age_days(r) <= FEED_MAX_AGE_DAYS
     ]
     candidates.sort(key=lambda r: r["pushed_at"], reverse=True)
     candidates = candidates[:limit]
 
     lines = ["| Projeto | Linguagem | Última atividade | Status |", "|---|---|---|---|"]
     for r in candidates:
-        pushed = datetime.strptime(r["pushed_at"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-        days = (now - pushed).days
+        days = age_days(r)
         name = f"[`{r['name']}`]({r['html_url']})"
         lang = r.get("language") or "—"
         lines.append(f"| {name} | {lang} | {relative_age(days)} | {repo_status(days)} |")
