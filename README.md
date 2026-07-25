@@ -49,7 +49,7 @@ história do que qualquer lista de skills.
 | [`smc-portfolio`](https://github.com/leodah20/smc-portfolio) | Python | há 14d | 🟢 Em desenvolvimento |
 | [`APS`](https://github.com/leodah20/APS) | HTML | há 14d | 🟢 Em desenvolvimento |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-07-25 07:53 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-07-25 13:06 UTC</sub>
 
 <!-- FEED:END -->
 
