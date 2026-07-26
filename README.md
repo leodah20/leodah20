@@ -43,13 +43,13 @@ história do que qualquer lista de skills.
 | Projeto | Linguagem | Última atividade | Status |
 |---|---|---|---|
 | [`leodah20.github.io`](https://github.com/leodah20/leodah20.github.io) | CSS | hoje | 🟢 Em desenvolvimento |
-| [`pokemon-trainer-companion`](https://github.com/leodah20/pokemon-trainer-companion) | TypeScript | há 2d | 🟢 Em desenvolvimento |
-| [`linkedin-connect-ai`](https://github.com/leodah20/linkedin-connect-ai) | Python | há 10d | 🟢 Em desenvolvimento |
+| [`pokemon-trainer-companion`](https://github.com/leodah20/pokemon-trainer-companion) | TypeScript | há 3d | 🟢 Em desenvolvimento |
+| [`linkedin-connect-ai`](https://github.com/leodah20/linkedin-connect-ai) | Python | há 11d | 🟢 Em desenvolvimento |
 | [`TCC-ChatBotAcademico`](https://github.com/leodah20/TCC-ChatBotAcademico) | Python | há 13d | 🟢 Em desenvolvimento |
 | [`smc-portfolio`](https://github.com/leodah20/smc-portfolio) | Python | há 15d | 🟡 Manutenção |
-| [`APS`](https://github.com/leodah20/APS) | HTML | há 15d | 🟡 Manutenção |
+| [`APS`](https://github.com/leodah20/APS) | HTML | há 16d | 🟡 Manutenção |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-07-26 13:02 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-07-26 18:59 UTC</sub>
 
 <!-- FEED:END -->
 
