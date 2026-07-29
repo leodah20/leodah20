@@ -42,15 +42,15 @@ história do que qualquer lista de skills.
 
 | Projeto | Linguagem | Última atividade | Status |
 |---|---|---|---|
-| [`varzea-palpites`](https://github.com/leodah20/varzea-palpites) | TypeScript | hoje | 🟢 Em desenvolvimento |
-| [`leodah20.github.io`](https://github.com/leodah20/leodah20.github.io) | CSS | há 3d | 🟢 Em desenvolvimento |
+| [`leodah20.github.io`](https://github.com/leodah20/leodah20.github.io) | CSS | hoje | 🟢 Em desenvolvimento |
+| [`vzbet`](https://github.com/leodah20/vzbet) | TypeScript | hoje | 🟢 Em desenvolvimento |
 | [`pokemon-trainer-companion`](https://github.com/leodah20/pokemon-trainer-companion) | TypeScript | há 5d | 🟢 Em desenvolvimento |
 | [`linkedin-connect-ai`](https://github.com/leodah20/linkedin-connect-ai) | Python | há 13d | 🟢 Em desenvolvimento |
 | [`TCC-ChatBotAcademico`](https://github.com/leodah20/TCC-ChatBotAcademico) | Python | há 16d | 🟡 Manutenção |
 | [`smc-portfolio`](https://github.com/leodah20/smc-portfolio) | Python | há 18d | 🟡 Manutenção |
 | [`APS`](https://github.com/leodah20/APS) | HTML | há 18d | 🟡 Manutenção |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-07-29 14:17 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-07-29 14:21 UTC</sub>
 
 <!-- FEED:END -->
 
@@ -68,7 +68,7 @@ Architecture nas duas pontas.
 
 [`repo`](https://github.com/leodah20/pokemon-trainer-companion)
 
-### ⚽ varzea-palpites
+### ⚽ VZBet
 
 App de palpites de placar pra times de futebol de várzea: torcedores
 palpitam o placar de cada partida, pontuam (3 pts placar exato, 1 pt
@@ -77,7 +77,7 @@ Backend NestJS + Prisma + PostgreSQL em Clean Architecture, frontend
 React + Vite (PWA), deploy na Render. Documentado com casos de uso e
 diagrama ER.
 
-[`repo`](https://github.com/leodah20/varzea-palpites)
+[`repo`](https://github.com/leodah20/vzbet)
 
 ### 🤝 linkedin-connect-ai
 
