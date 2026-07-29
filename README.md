@@ -50,7 +50,7 @@ história do que qualquer lista de skills.
 | [`smc-portfolio`](https://github.com/leodah20/smc-portfolio) | Python | há 18d | 🟡 Manutenção |
 | [`APS`](https://github.com/leodah20/APS) | HTML | há 18d | 🟡 Manutenção |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-07-29 13:50 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-07-29 14:17 UTC</sub>
 
 <!-- FEED:END -->
 
@@ -67,6 +67,17 @@ design), mais um "Pokédex parceiro" de lore/trivia opcional. React Native
 Architecture nas duas pontas.
 
 [`repo`](https://github.com/leodah20/pokemon-trainer-companion)
+
+### ⚽ varzea-palpites
+
+App de palpites de placar pra times de futebol de várzea: torcedores
+palpitam o placar de cada partida, pontuam (3 pts placar exato, 1 pt
+resultado certo) e disputam um ranking — sem dinheiro real envolvido.
+Backend NestJS + Prisma + PostgreSQL em Clean Architecture, frontend
+React + Vite (PWA), deploy na Render. Documentado com casos de uso e
+diagrama ER.
+
+[`repo`](https://github.com/leodah20/varzea-palpites)
 
 ### 🤝 linkedin-connect-ai
 
@@ -94,7 +105,9 @@ estava dividido em `chatbot-front` / `chatbot_rasa` / `ChatBot_API`
 
 **Full-Stack & Mobile**
 
+![React](https://img.shields.io/badge/REACT-a8d8f0?style=for-the-badge&labelColor=0b2545)
 ![React Native](https://img.shields.io/badge/REACT_NATIVE-a8d8f0?style=for-the-badge&labelColor=0b2545)
+![Vite](https://img.shields.io/badge/VITE-a8d8f0?style=for-the-badge&labelColor=0b2545)
 ![TypeScript](https://img.shields.io/badge/TYPESCRIPT-a8d8f0?style=for-the-badge&labelColor=0b2545)
 ![NestJS](https://img.shields.io/badge/NESTJS-a8d8f0?style=for-the-badge&labelColor=0b2545)
 ![Prisma](https://img.shields.io/badge/PRISMA-a8d8f0?style=for-the-badge&labelColor=0b2545)
@@ -130,6 +143,7 @@ estava dividido em `chatbot-front` / `chatbot_rasa` / `ChatBot_API`
 
 ![Git](https://img.shields.io/badge/GIT-a8d8f0?style=for-the-badge&labelColor=0b2545)
 ![GitHub Actions](https://img.shields.io/badge/GITHUB_ACTIONS-a8d8f0?style=for-the-badge&labelColor=0b2545)
+![Render](https://img.shields.io/badge/RENDER-a8d8f0?style=for-the-badge&labelColor=0b2545)
 
 <div align="center">
 
