@@ -42,8 +42,8 @@ história do que qualquer lista de skills.
 
 | Projeto | Linguagem | Última atividade | Status |
 |---|---|---|---|
-| [`vzbet`](https://github.com/leodah20/vzbet) | TypeScript | hoje | 🟢 Em desenvolvimento |
 | [`claude-remote-server`](https://github.com/leodah20/claude-remote-server) | Shell | hoje | 🟢 Em desenvolvimento |
+| [`vzbet`](https://github.com/leodah20/vzbet) | TypeScript | hoje | 🟢 Em desenvolvimento |
 | [`pokemon-trainer-companion`](https://github.com/leodah20/pokemon-trainer-companion) | TypeScript | ontem | 🟢 Em desenvolvimento |
 | [`leodah20.github.io`](https://github.com/leodah20/leodah20.github.io) | CSS | ontem | 🟢 Em desenvolvimento |
 | [`linkedin-connect-ai`](https://github.com/leodah20/linkedin-connect-ai) | Python | há 15d | 🟡 Manutenção |
@@ -51,7 +51,7 @@ história do que qualquer lista de skills.
 | [`smc-portfolio`](https://github.com/leodah20/smc-portfolio) | Python | há 20d | 🟡 Manutenção |
 | [`APS`](https://github.com/leodah20/APS) | HTML | há 20d | 🟡 Manutenção |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-07-31 08:38 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-07-31 13:45 UTC</sub>
 
 <!-- FEED:END -->
 
