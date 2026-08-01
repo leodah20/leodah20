@@ -47,11 +47,11 @@ história do que qualquer lista de skills.
 | [`vzbet`](https://github.com/leodah20/vzbet) | TypeScript | hoje | 🟢 Em desenvolvimento |
 | [`pokemon-trainer-companion`](https://github.com/leodah20/pokemon-trainer-companion) | TypeScript | há 2d | 🟢 Em desenvolvimento |
 | [`linkedin-connect-ai`](https://github.com/leodah20/linkedin-connect-ai) | Python | há 16d | 🟡 Manutenção |
-| [`TCC-ChatBotAcademico`](https://github.com/leodah20/TCC-ChatBotAcademico) | Python | há 18d | 🟡 Manutenção |
+| [`TCC-ChatBotAcademico`](https://github.com/leodah20/TCC-ChatBotAcademico) | Python | há 19d | 🟡 Manutenção |
 | [`smc-portfolio`](https://github.com/leodah20/smc-portfolio) | Python | há 21d | 🟡 Manutenção |
 | [`APS`](https://github.com/leodah20/APS) | HTML | há 21d | 🟡 Manutenção |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-08-01 02:03 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-08-01 08:06 UTC</sub>
 
 <!-- FEED:END -->
 
