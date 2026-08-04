@@ -48,10 +48,10 @@ história do que qualquer lista de skills.
 | [`pokemon-trainer-companion`](https://github.com/leodah20/pokemon-trainer-companion) | TypeScript | há 5d | 🟢 Em desenvolvimento |
 | [`linkedin-connect-ai`](https://github.com/leodah20/linkedin-connect-ai) | Python | há 19d | 🟡 Manutenção |
 | [`TCC-ChatBotAcademico`](https://github.com/leodah20/TCC-ChatBotAcademico) | Python | há 21d | 🟡 Manutenção |
-| [`smc-portfolio`](https://github.com/leodah20/smc-portfolio) | Python | há 23d | 🟡 Manutenção |
+| [`smc-portfolio`](https://github.com/leodah20/smc-portfolio) | Python | há 24d | 🟡 Manutenção |
 | [`APS`](https://github.com/leodah20/APS) | HTML | há 24d | 🟡 Manutenção |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-08-03 19:21 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-08-04 01:48 UTC</sub>
 
 <!-- FEED:END -->
 
