@@ -42,15 +42,15 @@ história do que qualquer lista de skills.
 
 | Projeto | Linguagem | Última atividade | Status |
 |---|---|---|---|
-| [`leodah20.github.io`](https://github.com/leodah20/leodah20.github.io) | HTML | hoje | 🟢 Em desenvolvimento |
 | [`pokemon-trainer-companion`](https://github.com/leodah20/pokemon-trainer-companion) | TypeScript | hoje | 🟢 Em desenvolvimento |
-| [`EcoFuturo`](https://github.com/leodah20/EcoFuturo) | HTML | hoje | 🟢 Em desenvolvimento |
-| [`claude-remote-server`](https://github.com/leodah20/claude-remote-server) | Shell | há 4d | 🟢 Em desenvolvimento |
-| [`vzbet`](https://github.com/leodah20/vzbet) | TypeScript | há 4d | 🟢 Em desenvolvimento |
+| [`leodah20.github.io`](https://github.com/leodah20/leodah20.github.io) | HTML | hoje | 🟢 Em desenvolvimento |
+| [`EcoFuturo`](https://github.com/leodah20/EcoFuturo) | HTML | ontem | 🟢 Em desenvolvimento |
+| [`claude-remote-server`](https://github.com/leodah20/claude-remote-server) | Shell | há 5d | 🟢 Em desenvolvimento |
+| [`vzbet`](https://github.com/leodah20/vzbet) | TypeScript | há 5d | 🟢 Em desenvolvimento |
 | [`TCC-ChatBotAcademico`](https://github.com/leodah20/TCC-ChatBotAcademico) | Python | há 23d | 🟡 Manutenção |
 | [`smc-portfolio`](https://github.com/leodah20/smc-portfolio) | Python | há 25d | 🟡 Manutenção |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-08-05 13:47 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-08-05 19:17 UTC</sub>
 
 <!-- FEED:END -->
 
