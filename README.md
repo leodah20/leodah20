@@ -47,10 +47,10 @@ história do que qualquer lista de skills.
 | [`EcoFuturo`](https://github.com/leodah20/EcoFuturo) | HTML | há 7d | 🟢 Em desenvolvimento |
 | [`claude-remote-server`](https://github.com/leodah20/claude-remote-server) | Shell | há 11d | 🟢 Em desenvolvimento |
 | [`vzbet`](https://github.com/leodah20/vzbet) | TypeScript | há 11d | 🟢 Em desenvolvimento |
-| [`TCC-ChatBotAcademico`](https://github.com/leodah20/TCC-ChatBotAcademico) | Python | há 29d | 🟡 Manutenção |
+| [`TCC-ChatBotAcademico`](https://github.com/leodah20/TCC-ChatBotAcademico) | Python | há 1m | 🟡 Manutenção |
 | [`smc-portfolio`](https://github.com/leodah20/smc-portfolio) | Python | há 1m | 🟡 Manutenção |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-08-12 01:14 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-08-12 07:12 UTC</sub>
 
 <!-- FEED:END -->
 
