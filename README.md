@@ -44,13 +44,13 @@ história do que qualquer lista de skills.
 |---|---|---|---|
 | [`leodah20.github.io`](https://github.com/leodah20/leodah20.github.io) | HTML | hoje | 🟢 Em desenvolvimento |
 | [`pokemon-trainer-companion`](https://github.com/leodah20/pokemon-trainer-companion) | TypeScript | há 26d | 🟡 Manutenção |
-| [`EcoFuturo`](https://github.com/leodah20/EcoFuturo) | HTML | há 27d | 🟡 Manutenção |
+| [`EcoFuturo`](https://github.com/leodah20/EcoFuturo) | HTML | há 28d | 🟡 Manutenção |
 | [`claude-remote-server`](https://github.com/leodah20/claude-remote-server) | Shell | há 1m | 🟡 Manutenção |
 | [`vzbet`](https://github.com/leodah20/vzbet) | TypeScript | há 1m | 🟡 Manutenção |
 | [`TCC-ChatBotAcademico`](https://github.com/leodah20/TCC-ChatBotAcademico) | Python | há 1m | 🟡 Manutenção |
 | [`smc-portfolio`](https://github.com/leodah20/smc-portfolio) | Python | há 1m | 🟡 Manutenção |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-09-01 10:52 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-09-01 15:50 UTC</sub>
 
 <!-- FEED:END -->
 
