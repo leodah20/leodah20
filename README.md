@@ -50,7 +50,7 @@ história do que qualquer lista de skills.
 | [`TCC-ChatBotAcademico`](https://github.com/leodah20/TCC-ChatBotAcademico) | Python | há 2m | 🟡 Manutenção |
 | [`smc-portfolio`](https://github.com/leodah20/smc-portfolio) | Python | há 2m | 🟡 Manutenção |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-09-22 20:42 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-09-23 02:38 UTC</sub>
 
 <!-- FEED:END -->
 
