@@ -48,9 +48,9 @@ história do que qualquer lista de skills.
 | [`claude-remote-server`](https://github.com/leodah20/claude-remote-server) | Shell | há 2m | 🟡 Manutenção |
 | [`vzbet`](https://github.com/leodah20/vzbet) | TypeScript | há 2m | 🟡 Manutenção |
 | [`TCC-ChatBotAcademico`](https://github.com/leodah20/TCC-ChatBotAcademico) | Python | há 2m | 🟡 Manutenção |
-| [`smc-portfolio`](https://github.com/leodah20/smc-portfolio) | Python | há 2m | 🟡 Manutenção |
+| [`smc-portfolio`](https://github.com/leodah20/smc-portfolio) | Python | há 3m | 🟡 Manutenção |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-10-08 12:33 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-10-08 22:41 UTC</sub>
 
 <!-- FEED:END -->
 
