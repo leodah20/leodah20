@@ -48,7 +48,7 @@ história do que qualquer lista de skills.
 | [`claude-remote-server`](https://github.com/leodah20/claude-remote-server) | Shell | há 2m | 🟡 Manutenção |
 | [`vzbet`](https://github.com/leodah20/vzbet) | TypeScript | há 2m | 🟡 Manutenção |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-10-25 15:20 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-10-25 20:12 UTC</sub>
 
 <!-- FEED:END -->
 
