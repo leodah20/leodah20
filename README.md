@@ -45,10 +45,10 @@ história do que qualquer lista de skills.
 | [`leodah20.github.io`](https://github.com/leodah20/leodah20.github.io) | HTML | hoje | 🟢 Em desenvolvimento |
 | [`pokemon-trainer-companion`](https://github.com/leodah20/pokemon-trainer-companion) | TypeScript | há 2m | 🟡 Manutenção |
 | [`EcoFuturo`](https://github.com/leodah20/EcoFuturo) | HTML | há 2m | 🟡 Manutenção |
-| [`claude-remote-server`](https://github.com/leodah20/claude-remote-server) | Shell | há 2m | 🟡 Manutenção |
-| [`vzbet`](https://github.com/leodah20/vzbet) | TypeScript | há 2m | 🟡 Manutenção |
+| [`claude-remote-server`](https://github.com/leodah20/claude-remote-server) | Shell | há 3m | 🟡 Manutenção |
+| [`vzbet`](https://github.com/leodah20/vzbet) | TypeScript | há 3m | 🟡 Manutenção |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-10-29 12:01 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-10-29 22:14 UTC</sub>
 
 <!-- FEED:END -->
 
