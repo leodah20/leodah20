@@ -46,9 +46,8 @@ história do que qualquer lista de skills.
 | [`pokemon-trainer-companion`](https://github.com/leodah20/pokemon-trainer-companion) | TypeScript | há 2m | 🟡 Manutenção |
 | [`EcoFuturo`](https://github.com/leodah20/EcoFuturo) | HTML | há 2m | 🟡 Manutenção |
 | [`claude-remote-server`](https://github.com/leodah20/claude-remote-server) | Shell | há 3m | 🟡 Manutenção |
-| [`vzbet`](https://github.com/leodah20/vzbet) | TypeScript | há 3m | 🟡 Manutenção |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-10-30 11:55 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-10-30 17:31 UTC</sub>
 
 <!-- FEED:END -->
 
