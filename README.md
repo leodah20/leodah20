@@ -42,10 +42,10 @@ história do que qualquer lista de skills.
 
 | Projeto | Linguagem | Última atividade | Status |
 |---|---|---|---|
-| [`whatsapp-report-assistant`](https://github.com/leodah20/whatsapp-report-assistant) | JavaScript | hoje | 🟢 Em desenvolvimento |
 | [`leodah20.github.io`](https://github.com/leodah20/leodah20.github.io) | HTML | hoje | 🟢 Em desenvolvimento |
+| [`whatsapp-report-assistant`](https://github.com/leodah20/whatsapp-report-assistant) | JavaScript | hoje | 🟢 Em desenvolvimento |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-11-11 13:18 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-11-11 23:54 UTC</sub>
 
 <!-- FEED:END -->
 
