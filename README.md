@@ -43,9 +43,10 @@ história do que qualquer lista de skills.
 | Projeto | Linguagem | Última atividade | Status |
 |---|---|---|---|
 | [`leodah20.github.io`](https://github.com/leodah20/leodah20.github.io) | HTML | hoje | 🟢 Em desenvolvimento |
-| [`whatsapp-report-assistant`](https://github.com/leodah20/whatsapp-report-assistant) | JavaScript | hoje | 🟢 Em desenvolvimento |
+| [`runavolt-docs`](https://github.com/leodah20/runavolt-docs) | JavaScript | hoje | 🟢 Em desenvolvimento |
+| [`runavolt-blog-publico`](https://github.com/leodah20/runavolt-blog-publico) | JavaScript | hoje | 🟢 Em desenvolvimento |
 
-<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-11-26 16:05 UTC</sub>
+<sub>Auto-gerado via API do GitHub pelo mesmo script do tracker acima — sem curadoria manual. Última sincronização: 2026-11-27 01:20 UTC</sub>
 
 <!-- FEED:END -->
 
